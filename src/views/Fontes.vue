@@ -28,6 +28,8 @@
           Museum</a><br>
         <a href="https://museucapixaba.com.br/" target="_blank" rel="noopener noreferrer">Museu Capixaba do
           Computador</a><br>
+        <a href="https://ethw.org/" target="_blank" rel="noopener noreferrer">Engineering and Technology History Wiki (ETHW)</a><br>
+        <a href="https://museum.syssrc.com/" target="_blank" rel="noopener noreferrer">Computer Museum @ System Source</a><br>
       </p>
     </div>
 

@@ -183,7 +183,7 @@ Cinco meses depois, em 4 de julho de 1956, um teclado foi conectado ao computado
     imageModal: "/images/timeline/1956-console-gabinetes-IBM-305-ramac.webp",
     sourceCard: '<a href="https://www.ibm.com/history/ramac">@ IBM</a>',
     sourceModal: '<a href="https://www.ibm.com/history/ramac">@ IBM</a>',
-    category: "Computadores",
+    category: ["Computadores","Hardware"],
     longDescription: `O IBM 305 RAMAC — ou simplesmente RAMAC — foi o primeiro computador a usar uma unidade de disco de acesso aleatório. O progenitor de todas as unidades de disco rígido criadas desde então, tornou possível para qualquer usuário de computador armazenar, acessar, alterar e apagar dados de forma rápida e fácil, sem treinamento técnico ou intervenção manual. Ele abriu caminho para a invenção do banco de dados relacional , capacitou as empresas a pensar sobre dados de novas maneiras e, finalmente, lançou as bases para tudo, desde voos espaciais e caixas eletrônicos até mecanismos de busca e comércio eletrônico.
 
 Antes do RAMAC, a recuperação de informações por meio de um computador levava horas ou até dias. O RAMAC conseguia acessar e manipular dados exponencialmente mais rápido — em segundos. A máquina ocupava a maior parte de uma sala e armazenava uma quantidade irrisória para os padrões atuais — apenas 5 megabytes — e, ainda assim, representava um enorme salto em velocidade e eficiência que tornou o banco de dados relacional possível e mudou a forma como as empresas coletavam, utilizavam e aplicavam informações. Na época, a empresa descreveu o processo subjacente do RAMAC como "memória milagrosa".
@@ -292,7 +292,7 @@ O mouse de Engelbart foi demonstrado publicamente pela primeira vez na Conferên
   {
     year: "1965",
     title: "Primeira tela sensível ao toque acionada por dedo",
-    shortDescription: "A Eric Arthur Johnson desenvolve a primeira tela sensível ao toque acionada pelos dedos.",
+    shortDescription: "Eric Arthur Johnson desenvolve a primeira tela sensível ao toque acionada pelos dedos.",
     imageCard: "./images/timeline/1965-touch.jpg",
     imageModal: "./images/timeline/1965-touch.jpg",
     sourceCard: '<a href="http://mraths.org.uk/?page_id=531">© MRATHS 2016.</a>',
@@ -312,6 +312,38 @@ Trabalhando na RRE Malvern, Eric Johnson percebeu que uma interface sensível ao
       '<a href="https://commons.wikimedia.org/wiki/File:Intel_logo_(2020,_light_blue).svg">Intel</a>, Public domain, via Wikimedia Commons',
     category: "Empresas",
     longDescription: `A Intel Corporation foi fundada em 1968 por Robert Noyce e Gordon Moore, dois pioneiros da indústria de semicondutores. A empresa rapidamente se destacou no desenvolvimento de microprocessadores e memórias, tornando-se uma das principais forças na revolução dos computadores pessoais e na evolução da tecnologia da informação.`,
+  },
+  {
+    year: "1968",
+    title: "Robert Dennard e IBM patenteiam DRAM",
+    shortDescription: "DRAM (Dynamic Random Access Memory) foi patenteada em 4 de junho de 1968 pelo Dr. Robert Dennard e pela IBM.",
+    imageCard: "./images/timeline/1968-DRAM.png",
+    imageModal: "./images/timeline/1968-1MB_DRAM.png",
+    sourceCard: '<a href="https://assets.ibm.com/is/image/ibm/DRAM?dpr=on%2C1.5&wid=960&hei=1262">IBM, Um chip DRAM nas mãos de Robert Dennard, 1976.</a>',
+    sourceModal: '<a href="https://assets.ibm.com/is/image/ibm/1MB_DRAM_TechFiles_Box3_F17">IBM, Um chip DRAM de 1 MB.</a>',
+    category: "Hardware",
+    longDescription: `DRAM (Dynamic Random Access Memory) foi patenteada em 4 de junho de 1968 pelo Dr. Robert Dennard e pela IBM .
+
+Cada célula de memória DRAM usa um único transistor e capacitor para armazenar um único bit de dados — 1 ou 0. A DRAM rapidamente se tornou uma tecnologia instrumental em computadores de mesa e, ainda hoje, a DRAM é o tipo mais comum de RAM em uso.
+
+Robert Dennard recebeu a Medalha Nacional de Tecnologia em 1988, do presidente Ronald Reagan.`,
+  },
+  {
+    year: "1969",
+    title: "AMD, Advanced Micro Devices, é fundada",
+    shortDescription: "A AMD, Advanced Micro Devices, foi fundada em 1º de maio de 1969 por um grupo de ex-executivos da Fairchild Semiconductor.",
+    imageCard: "/images/timeline/1969-AMD_Logo.svg",
+    imageModal: "/images/timeline/1969-AMD_Logo.svg",
+    source:
+      '<a href="https://en.wikipedia.org/wiki/File:AMD_Logo.svg">	Advanced Micro Devices, Inc., AMD corporate logo in use since 2013.</a>, Public domain, via Wikimedia Commons',
+    category: "Empresas",
+    longDescription: `A AMD, Advanced Micro Devices, foi fundada em 1º de maio de 1969 por um grupo de ex-executivos da Fairchild Semiconductor.
+
+A empresa começou como produtora de chips lógicos e logo passou a produzir chips de RAM.
+
+A AMD produziu seu primeiro processador em 1975, o Am9000, um clone de engenharia reversa do Intel 8080 .
+
+A AMD se tornou uma das principais fabricantes de processadores do mundo, produzindo os bem-sucedidos processadores Athlon e Opteron na década de 2000.`,
   },
   {
     year: "1969",
@@ -358,6 +390,24 @@ Trabalhando na RRE Malvern, Eric Johnson percebeu que uma interface sensível ao
       '<a href="https://commons.wikimedia.org/wiki/File:KL_Intel_C8008-1.jpg">Konstantin Lanzet</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons',
     category: "Hardware",
     longDescription: `Lançado pela Intel em 1972, o 8008 foi o primeiro microprocessador de 8 bits da empresa. Ele foi uma evolução do Intel 4004, oferecendo maior capacidade de processamento e memória. O 8008 foi amplamente utilizado em sistemas embarcados e computadores pessoais iniciais, contribuindo para a popularização da computação.`,
+  },
+  {
+    year: "1973",
+    title: "Bob Metcalfe inventa a Ethernet",
+    shortDescription: "A Ethernet foi desenvolvida no Xerox PARC em 1973. Bob Metcalfe documentou suas ideias em um memorando enviado em 22 de maio de 1973.",
+    imageCard: "/images/timeline/1973-Ethernet-sketch.jpg",
+    imageModal: "/images/timeline/1973-Ethernet-sketch.jpg",
+    source: '<a href="https://ethw.org/File:Ethernet-sketch.jpg">photographed by Dave Boggs, Bob Metcalfe&apos;s sketch of the Ethernet concept</a> via Engineering and Technology History Wiki',
+    category: "Redes",
+    longDescription: `A Ethernet foi desenvolvida no Xerox PARC em 1973. Bob Metcalfe documentou suas ideias em um memorando enviado em 22 de maio de 1973.
+
+Ethernet é um conjunto de protocolos de rede que permite que dispositivos conectados localmente se comuniquem sem necessidade de comunicação entre si. Ele fornece um conjunto de regras que especificam como a comunicação deve ocorrer. Por exemplo, os dispositivos devem garantir que nenhum outro dispositivo esteja enviando mensagens antes de iniciar a comunicação.
+
+A principal motivação para o desenvolvimento da Ethernet foi permitir que as muitas estações de trabalho Alto no Xerox PARC se conectassem à primeira impressora a laser em rede do mundo.
+
+Ethernet recebeu esse nome em homenagem ao "éter luminífero", uma substância teórica já refutada que se acredita ter sido o meio de propagação de ondas eletromagnéticas no final do século XIX.
+
+Em 1975, a Xerox registrou um pedido de patente listando Metcalfe, David Boggs, Chuck Thacker e Butler Lampson como inventores. A patente americana 4063220, "Sistema de comunicação de dados multiponto com detecção de colisão", foi concedida em 13 de dezembro de 1977.`,
   },
   {
     year: "1974",
@@ -490,7 +540,7 @@ O Osborne 1 era um computador portátil do tamanho de uma mala de 10 kg, baseado
     imageModal: "/images/timeline/1983-150_touchscreen_20081129.jpg",
     sourceCard: '<a href="https://www.vintagecomputing.com/wp-content/images/retroscan/hp150_small.jpg">From Personal Computing, December 1983 </a>, via https://www.vintagecomputing.com/',
     sourceModal: '<a href="https://en.wikipedia.org/wiki/File:Hp150_touchscreen_20081129.jpg">MyName (Cinecol)</a>, <a href="https://creativecommons.org/licenses/by/3.0/deed.en">CC BY 3.0 Unported</a>, via Wikimedia Commons',
-    category: "Computadores",
+    category: ["Computadores", "Hardware"],
     longDescription: `Em 1983, a Hewlett-Packard lançou o que pode ter sido o primeiro computador pessoal do mundo com tela sensível ao toque integrada. O HP-150 era um PC compatível com MS-DOS baseado no 8088, com alguns recursos avançados para a época. Infelizmente, a arquitetura de hardware do 150 provou ser tão diferente que ele não era compatível com a maioria dos programas para IBM PC.
 O HP-150 utiliza um método rudimentar e de baixa resolução para detectar a posição dos dedos na tela. A unidade projeta uma grade de feixes infravermelhos sobre a superfície da tela. Ao detectar quais feixes estão obstruídos por um objeto, o computador consegue calcular as coordenadas do toque.
 
@@ -510,6 +560,21 @@ Além da tela sensível ao toque, o HP-150 se destaca por ser o primeiro computa
       '<a href="https://commons.wikimedia.org/wiki/File:Microsoft_Windows_1.0_screenshot.png">Rezonansowy, Microsoft</a>, Public domain, via Wikimedia Commons',
     category: "Software",
     longDescription: `Em 10 de novembro de 1983, a Microsoft anunciou o Windows, um sistema operacional com interface gráfica. O Windows foi projetado para funcionar como uma camada sobre o MS-DOS, oferecendo uma interface mais amigável e facilitando a multitarefa. A primeira versão do Windows, lançada em 1985, incluía recursos como janelas redimensionáveis, menus suspensos e suporte para mouse, marcando o início de uma nova era na computação pessoal.`,
+  },
+  {
+    year: "1984",
+    title: "Fujio Masuoka inventa a memória flash",
+    shortDescription:
+      "Fujio Masuoka inventou a memória flash em 1984, enquanto trabalhava para a Toshiba.",
+    imageCard: "/images/timeline/1984-FujioMasuoka.jpg",
+    imageModal:
+      "/images/timeline/1984-FujioMasuoka.jpg",
+    sourceCard:
+      '<a href="https://images.computerhistory.org/timeline/timeline_memorystorage_1984.flashmemory.jpg">Computer History Museum, Fujio Masuoka</a>',
+    sourceModal:
+      '<a href="https://images.computerhistory.org/timeline/timeline_memorystorage_1984.flashmemory.jpg">Computer History Museum, Fujio Masuoka</a>',
+    category: "Hardware",
+    longDescription: `Fujio Masuoka inventou a memória flash em 1984, enquanto trabalhava para a Toshiba. Capaz de ser apagada e reprogramada diversas vezes, a memória flash rapidamente conquistou seguidores fiéis na indústria de memórias para computadores. Embora a ideia de Masuoka tenha sido elogiada, ele ficou insatisfeito com o que considerou uma falha da Toshiba em recompensar seu trabalho, e Masuoka pediu demissão para se tornar professor na Universidade de Tohoku. Contrariando a cultura japonesa de lealdade às empresas, ele processou seu antigo empregador exigindo indenização, chegando a um acordo em 2006 com um pagamento único de ¥ 87 milhões (US$ 758.000).`,
   },
   {
     year: "1987",
@@ -633,6 +698,24 @@ Além da tela sensível ao toque, o HP-150 se destaca por ser o primeiro computa
 Foi descrito pela Nvidia como a primeira GPU (Unidade de Processamento Gráfico) do mundo. A definição da Nvidia na época era "um processador de chip único com mecanismos integrados de transformação, iluminação, configuração/recorte de triângulos e renderização, capaz de processar no mínimo 10 milhões de polígonos por segundo".`,
   },
   {
+    year: "2007",
+    title: "A Apple apresenta o iPhone",
+    shortDescription: "Em 9 de janeiro de 2007, Steve Jobs anunciou o iPhone na conferência MacWorld em São Francisco.",
+    imageCard: "/images/timeline/2007-First_iPhone_Macworld.jpg",
+    imageModal: "/images/timeline/2007-IPhone_1st_Gen.svg",
+    sourceCard: '<a href="https://en.wikipedia.org/wiki/File:First_iPhone_Macworld_2007_DSCF1286.agr.jpg">ArnoldReinhold, First public showing of the Apple iPhone, at the 2007 MacWorld show in San Fransisco.</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>, via Wikimedia Commons',
+    sourceModal: '<a href="https://en.wikipedia.org/wiki/File:IPhone_1st_Gen.svg">Rafael Fernandez, A vector render of the 1st generation iPhone.</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>, via Wikimedia Commons',
+    category: ["Software", "Smartphones"],
+    longDescription: `Em 9 de janeiro de 2007, Steve Jobs anunciou o iPhone na conferência MacWorld em São Francisco.
+    Antes do iPhone, os smartphones eram dispositivos desajeitados. Modelos que combinavam teclados físicos impraticáveis e pequenos com uma tela sem resposta ao toque. Sites completos muitas vezes não funcionavam em celulares, então as empresas criavam versões mobile mais fracas de seus sites. Mesmo quando os sites funcionavam, a navegação era um processo trabalhoso, com o uso de botões minúsculos e controles analógicos para simular movimentos do mouse.
+
+O iPhone mudou isso, com uma interface baseada em tela sensível ao toque, proporcionando uma experiência de Web móvel tão fácil de usar quanto um computador desktop.
+
+O iPhone tinha uma tela com resolução de 320x480, medindo 3,5 polegadas na diagonal, muito maior do que a maioria dos outros telefones da época. Tinha apenas quatro controles físicos: um botão liga/desliga, botões de aumentar e diminuir volume, um interruptor para silenciar/tocar e um botão home. Todas as outras funções do iPhone eram controladas pela tela sensível ao toque multigestos. O iPhone também contava com uma câmera de 2 megapixels.
+
+O iPhone foi lançado nos EUA em 29 de junho de 2007, com um modelo de 4 GB custando US$ 499 e um modelo de 8 GB por US$ 599. Rapidamente se tornou o produto de maior sucesso da Apple.`,
+  },
+  {
     year: "2008",
     title: "HTC lança o primeiro smartphone Android",
     shortDescription: "O primeiro smartphone Android disponível ao público foi o HTC Dream, também conhecido como T-Mobile G1, lançado em 20 de outubro de 2008 nos EUA.",
@@ -640,7 +723,7 @@ Foi descrito pela Nvidia como a primeira GPU (Unidade de Processamento Gráfico)
     imageModal: "/images/timeline/2008-T-Mobile_G1_launch_event_2.jpg",
     sourceCard: '<a href="https://commons.wikimedia.org/wiki/File:OpenAI_logo_2025.svg">@ Google, Android logo</a>,<a href="https://creativecommons.org/licenses/by/3.0/deed.en">CC BY 3.0 Unported</a>, via Wikimedia Commons',
     sourceModal: '<a href="https://en.wikipedia.org/wiki/File:T-Mobile_G1_launch_event_2.jpg">Michael Oryl</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.en">CC BY-SA 2.0</a>, via Wikimedia Commons',
-    category: "Software",
+    category: ["Software", "Smartphones"],
     longDescription: `O Android é um sistema operacional móvel desenvolvido para dispositivos com tela sensível ao toque, como smartphones e tablets. Baseado no Linux, o desenvolvimento do Android começou em 2003 pela Android Inc., que foi comprada pelo Google em 2005.
 
 O primeiro smartphone Android disponível ao público foi o HTC Dream, também conhecido como T-Mobile G1, lançado em 20 de outubro de 2008 nos EUA. Ele utilizava um sistema Qualcomm MSM7201A de 528 MHz com 192 MB de RAM e 256 MB de armazenamento interno, expansível em até 16 GB usando um slot para cartão Micro SD. Também possuía tela sensível ao toque.
