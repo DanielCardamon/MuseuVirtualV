@@ -2,7 +2,7 @@ import { promises as fs } from "fs";
 import path from "path";
 import sharp from "sharp";
 
-const ROOT = path.resolve("public", "images", "timeline");
+const IMAGE_FOLDERS = ["timeline", "acervo"];
 const VARIANT_WIDTHS = [480, 960, 1440];
 const PLACEHOLDER_WIDTH = 24;
 const SUPPORTED_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp"]);
@@ -33,12 +33,12 @@ const shouldProcess = async (src, dest) => {
   }
 };
 
-const processImage = async (filePath) => {
+const processImage = async (filePath, rootDir) => {
   if (isGeneratedDerivative(filePath)) {
     return;
   }
 
-  const absolutePath = path.resolve(ROOT, filePath);
+  const absolutePath = path.resolve(rootDir, filePath);
   const ext = path.extname(filePath).toLowerCase();
 
   if (!SUPPORTED_EXTENSIONS.has(ext)) {
@@ -80,16 +80,16 @@ const processImage = async (filePath) => {
   }
 };
 
-const traverse = async (current = ROOT) => {
+const traverse = async (current, rootDir) => {
   const entries = await fs.readdir(current, { withFileTypes: true });
   await Promise.all(
     entries.map(async (entry) => {
       const entryPath = path.join(current, entry.name);
       if (entry.isDirectory()) {
-        await traverse(entryPath);
+        await traverse(entryPath, rootDir);
       } else if (entry.isFile()) {
-        const relative = path.relative(ROOT, entryPath);
-        await processImage(relative);
+        const relative = path.relative(rootDir, entryPath);
+        await processImage(relative, rootDir);
       }
     })
   );
@@ -97,7 +97,18 @@ const traverse = async (current = ROOT) => {
 
 const run = async () => {
   console.time("image-variants");
-  await traverse();
+  
+  for (const folder of IMAGE_FOLDERS) {
+    const rootDir = path.resolve("public", "images", folder);
+    try {
+      await fs.access(rootDir);
+      console.log(`Processing folder: ${folder}`);
+      await traverse(rootDir, rootDir);
+    } catch (error) {
+      console.log(`Skipping folder '${folder}' (does not exist or not accessible)`);
+    }
+  }
+  
   await Promise.all(pendingTasks);
   console.timeEnd("image-variants");
   console.log(
