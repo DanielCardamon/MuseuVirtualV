@@ -3,7 +3,7 @@
         class="w-full max-w-6xl mx-auto bg-black/30 backdrop-blur-md rounded-2xl border border-white/20 p-8 md:p-12 shadow-lg">
         <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
             <div class="min-w-0">
-                <img src="https://www.intel.com.br/content/dam/www/central-libraries/us/en/images/2023-01/s9-u05-02-product-shot-three-pc-cases-original-rwd.jpg.rendition.intel.web.1648.927.jpg"
+                <img src="/images/componentes/gabinete.jpg"
                     alt="Imagem de gabinetes"
                     class="w-full h-auto object-contain rounded-lg shadow-lg border border-white/10" />
                 <p class="text-xs italic text-gray-300 mt-2 break-all">

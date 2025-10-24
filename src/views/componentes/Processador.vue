@@ -3,7 +3,7 @@
         class="w-full max-w-6xl mx-auto bg-black/30 backdrop-blur-md rounded-2xl border border-white/20 p-8 md:p-12 shadow-lg">
         <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
             <div>
-                <img src="https://www.hardware.com.br/wp-content/uploads/static/wp/2022/05/17/capa-1536x1038.png"
+                <img src="/images/componentes/processador.png"
                     alt="Ilustração de uma CPU" class="w-full h-auto rounded-lg shadow-lg border border-white/10" />
                 <p class="text-xs italic text-gray-300 mt-2">
                     Imagem retirada da internet: hardware.com.br

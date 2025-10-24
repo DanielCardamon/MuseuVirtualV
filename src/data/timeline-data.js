@@ -190,6 +190,20 @@ Antes do RAMAC, a recuperação de informações por meio de um computador levav
 O RAMAC resolveu imediatamente a sobrecarga paralisante de dados analógicos nas empresas, possibilitando o acesso ao equivalente a 64.000 cartões perfurados quase instantaneamente.`,
   },
   {
+    year: "1957",
+    title: "DEC é fundada",
+    shortDescription: "Em 23 de agosto de 1957, DEC, ou Digital Equipment Corporation, é fundada em Maynard, Massachusetts, por três homens: Ken Olsen , seu irmão Stan Olsen e Harland Anderson.",
+    imageCard: "/images/timeline/1957-Digital_Equipment_Corporation_logo.svg",
+    imageModal: "/images/timeline/1957-Digital_Equipment_Corporation_logo.svg",
+    source: '<a href="https://www.ibm.com/history/ramac">Digital Equipment Corporation; authoritative vectorization by Ned Batchelder in 1987</a>, Public domain, via Wikimedia Commons',
+    category: ["Empresas"],
+    longDescription: `Em 23 de agosto de 1957, DEC, ou Digital Equipment Corporation, é fundada em Maynard, Massachusetts, por três homens: Ken Olsen , seu irmão Stan Olsen e Harland Anderson .
+
+A DEC passou a ser uma das principais forças motrizes da indústria de computadores nas décadas de 60, 70 e início dos anos 80.
+
+A DEC era mais conhecida por sua linha de computadores PDP e VAX.`,
+  },
+  {
     year: "1958",
     title: "Jack Kilby inventa o circuito integrado",
     shortDescription: "O primeiro circuito integrado é inventado.",
@@ -371,6 +385,23 @@ A AMD se tornou uma das principais fabricantes de processadores do mundo, produz
   },
   {
     year: "1971",
+    title: "A Intel anuncia a primeira EPROM",
+    shortDescription: "A Intel apresenta a primeira tecnologia de memória somente leitura programável e apagável (EPROM) na Conferência Internacional de Circuitos de Estado Sólido (ISSCC), realizada entre 17 e 19 de fevereiro de 1971.",
+    imageCard: "/images/timeline/1971_EPROM_Intel.jpg",
+    imageModal: "/images/timeline/1971_EPROM_Intel.jpg",
+    source:
+      '<a href="https://commons.wikimedia.org/wiki/File:Intel_4004.jpg">Poil 01:10, 17 Apr 2005 (UTC), EPROM : The first INTEL EPROM, the 1702 (1971).</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons',
+    category: "Hardware",
+    longDescription: `A Intel apresenta a primeira tecnologia de memória somente leitura programável e apagável (EPROM) na Conferência Internacional de Circuitos de Estado Sólido (ISSCC), realizada entre 17 e 19 de fevereiro de 1971.
+
+EPROM é um tipo de chip de memória programável que retém seus dados mesmo quando a energia é desligada. Uma vez programado, um chip EPROM pode ser apagado expondo-o a uma forte luz ultravioleta através de uma janela transparente na parte superior do encapsulamento.
+
+O inventor da EPROM, Dov Frohman, fez uma demonstração ao vivo da nova tecnologia na conferência.
+
+O produto real, o 1702, foi lançado no final do ano.`,
+  },
+  {
+    year: "1971",
     title: "Intel 4004",
     shortDescription: "O primeiro microprocessador comercialmente disponível.",
     imageCard: "/images/timeline/1971-intel-4004-615411d4.webp",
@@ -379,6 +410,19 @@ A AMD se tornou uma das principais fabricantes de processadores do mundo, produz
       '<a href="https://commons.wikimedia.org/wiki/File:Intel_4004.jpg">LucaDetomi at it.wikipedia</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons',
     category: "Hardware",
     longDescription: `Lançado pela Intel, o 4004 foi o primeiro microprocessador comercialmente disponível no mundo. Ele integrou todos os componentes de uma CPU em um único chip de silício, uma inovação que pavimentou o caminho para o desenvolvimento dos computadores pessoais e da eletrônica embarcada.`,
+  },
+  {
+    year: "1972",
+    title: "Alan Kay publica o conceito do Dynabook",
+    shortDescription: 'Alan Kay desenvolve e descreve o conceito de Dynabook, detalhando suas especificações, em sua proposta em 1972 "A personal computer for children of all ages"',
+    imageCard: "./images/timeline/1972-Alan_Kay_and_the_prototype_of_Dynabook.jpg",
+    imageModal: "./images/timeline/1972-The_Dynabook_prototype.jpg",
+    sourceCard: '<a href="https://pt.wikipedia.org/wiki/Ficheiro:Alan_Kay_and_the_prototype_of_Dynabook,_pt._5_(3010032738).jpg">Marcin Wichary from San Francisco, U.S.A., Alan Kay and the prototype of Dynabook</a>  <a href="https://creativecommons.org/licenses/by/2.0/deed.pt">CC BY 2.0</a>, via Wikimedia Commons',
+    sourceModal: '<a href="https://pt.wikipedia.org/wiki/Ficheiro:The_Dynabook_prototype,_pt._3_(3010043854).jpg">Marcin Wichary from San Francisco, Calif., The Dynabook prototype, pt. 3</a> <a href="https://creativecommons.org/licenses/by/2.0/deed.pt">CC BY 2.0</a>, via Wikimedia Commons',
+    category: "Hardware",
+    longDescription: `Em 1968, Alan Kay imaginou um KiddiComp; enquanto candidato a doutorado ele desenvolveu e descreveu o conceito como um Dynabook em sua proposta de 1972: Um computador pessoal para crianças de todas as idades, o artigo descreve os requisitos para um dispositivo educacional portátil conceitual que ofereceria funcionalidade semelhante à fornecida por ofereceria funcionalidade similar ao que é fornecida através de laptops ou um tablet com exceção do requisito para qualquer dispositivo Dynabook que oferecesse vida útil de bateria quase eterna. Adultos também poderiam usar um Dynabook, mas o público-alvo eram crianças.
+
+    Seu "livro dinâmico", ou Dynabook, embora avançado demais para ser construído na época, inspirou designers futuros. Kay foi pioneiro na programação de GUI e orientada a objetos na empresa Xerox PARC.`,
   },
   {
     year: "1972",
@@ -470,6 +514,34 @@ Em 1975, a Xerox registrou um pedido de patente listando Metcalfe, David Boggs, 
       '<a href="https://commons.wikimedia.org/wiki/File:Apple_II_typical_configuration_1977.png">FozzTexx</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons',
     category: "Computadores",
     longDescription: `O Apple II, lançado em 1977, foi um dos primeiros computadores pessoais produzidos em massa de sucesso. Projetado por Steve Wozniak, o Apple II apresentava gráficos coloridos, som integrado e uma arquitetura expansível, tornando-o popular entre entusiastas de computação e escolas. Ele desempenhou um papel crucial na popularização dos computadores pessoais e estabeleceu a Apple como uma força dominante na indústria de tecnologia.`,
+  },
+   {
+    year: "1977",
+    title: "Publicado o algoritmo de compressão de dados Lempel-Ziv",
+    shortDescription:
+      "O algoritmo, publicado pela primeira vez no IEEE Transactions on Information Theory em maio de 1977, permite uma compressão simples de dados. Para transferir dados de forma rápida e eficiente, a capacidade de comprimi-los é desejável.",
+    imageCard: "/images/timeline/1977-Lzw.jpg",
+    imageModal: "/images/timeline/1977-Lzw.jpg",
+    source:
+      '<a href="https://commons.wikimedia.org/wiki/File:Apple_II_typical_configuration_1977.png">Javad Yousefi, LZW Compression</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.pt">CC BY-SA 3.0</a>, via Wikimedia Commons',
+    category: "Software",
+    longDescription: `O algoritmo, publicado pela primeira vez no IEEE Transactions on Information Theory em maio de 1977, permite uma compressão simples de dados. Para transferir dados de forma rápida e eficiente, a capacidade de comprimi-los é desejável.
+    O algoritmo funciona substituindo sequências de caracteres por códigos únicos, chamados "tokens". Cada vez que o algoritmo reconhece uma nova sequência, ele a gera e a adiciona a uma tabela ou dicionário. Na próxima vez que encontrar essa sequência, ele gera apenas o novo código da tabela. A saída de um único código em vez de uma sequência de códigos significa que os dados foram "compactados" ou encurtados, tornando-os mais eficientes para transmissão (desde que possam ser decodificados na outra extremidade!). Os primeiros 256 códigos são atribuídos ao conjunto de caracteres padrão de 8 bits, portanto, por exemplo, em um código de 12 bits, o dicionário pode conter quase 4.000 tokens.`,
+  },
+    {
+    year: "1978",
+    title: "Acorn Computers Ltd é fundada",
+    shortDescription: "Em 5 de dezembro de 1978, Hermann Hauser e Chris Curry fundaram a Cambridge Processor Unit Ltd, conhecida como CPU Ltd. A CPU Ltd. mais tarde se tornou Acorn Computers Ltd.",
+    imageCard: "/images/timeline/1978-Acorn_computers_logo.svg",
+    imageModal: "/images/timeline/1978-Acorn_computers_logo.svg",
+    source:
+      '<a href="https://commons.wikimedia.org/wiki/File:Intel_4004.jpg">©Acorn Computers Ltd., Logo for identification of Acorn Computers Ltd.</a>, , via Wikimedia Commons',
+    category: "Empresas",
+    longDescription: `Em 5 de dezembro de 1978, Hermann Hauser e Chris Curry fundaram a Cambridge Processor Unit Ltd, conhecida como CPU Ltd. A CPU Ltd. mais tarde se tornou Acorn Computers Ltd e lançou alguns dos computadores domésticos mais populares da década de 1980, incluindo o Acorn Electron , o BBC Micro e o Acorn Archimedes .
+
+Os computadores Acorn eram particularmente populares no Reino Unido, onde o BBC Micro era amplamente utilizado nas escolas, com a maioria delas tendo pelo menos uma máquina.
+
+Em 1990, a Acorn, a Apple e a VLSI Technology uniram forças para criar uma nova empresa, a Arm, que se tornou uma empresa de design de semicondutores de muito sucesso.`,
   },
   {
     year: "1980",
@@ -577,6 +649,23 @@ Além da tela sensível ao toque, o HP-150 se destaca por ser o primeiro computa
     longDescription: `Fujio Masuoka inventou a memória flash em 1984, enquanto trabalhava para a Toshiba. Capaz de ser apagada e reprogramada diversas vezes, a memória flash rapidamente conquistou seguidores fiéis na indústria de memórias para computadores. Embora a ideia de Masuoka tenha sido elogiada, ele ficou insatisfeito com o que considerou uma falha da Toshiba em recompensar seu trabalho, e Masuoka pediu demissão para se tornar professor na Universidade de Tohoku. Contrariando a cultura japonesa de lealdade às empresas, ele processou seu antigo empregador exigindo indenização, chegando a um acordo em 2006 com um pagamento único de ¥ 87 milhões (US$ 758.000).`,
   },
   {
+    year: "1984",
+    title: "Michael Dell funda a Dell Computer Corporation",
+    shortDescription:
+      "Em 3 de maio de 1984, Michael Dell fundou uma empresa chamada PC's Limited, com um capital de US$ 1.000. Operando em seu dormitório na Universidade do Texas em Austin",
+    imageCard: "/images/timeline/1984-Dell.svg",
+    imageModal:
+      "/images/timeline/1984-Dell.svg",
+    source:
+      '<a href="https://en.wikipedia.org/wiki/File:Dell_1984.svg">Dell, Wordmark of Dell used from 1987 to 1991</a>, Public domain, via Wikimedia Commons',
+    category: "Empresas",
+    longDescription: `Em 3 de maio de 1984, aos 19 anos, Michael Dell fundou uma empresa chamada PC's Limited, com um capital de US$ 1.000. Operando em seu dormitório na Universidade do Texas em Austin, Dell construía computadores compatíveis com IBM PC a partir de componentes prontos para uso.
+
+Em 1987, a empresa mudou seu nome para Dell Computer Corporation e depois para Dell Inc. em 2003.
+
+Com sede em Round Rock, Texas, a Dell se tornou uma das maiores fabricantes de computadores do mundo`,
+  },
+  {
     year: "1987",
     title: "Windows 2.0",
     shortDescription: "A segunda versão do sistema operacional Windows.",
@@ -661,6 +750,19 @@ Além da tela sensível ao toque, o HP-150 se destaca por ser o primeiro computa
                       Brian Eno compôs uma peça musical de seis segundos para o Windows 95, tocada na inicialização e conhecida como "The Microsoft Sound".
 
                       O Windows 95 vendeu 7 milhões de cópias nas primeiras cinco semanas de venda.`,
+  },
+  {
+    year: "1996",
+    title: "Publicado a primeira especificação do Universal Serial Bus (USB)",
+    shortDescription:
+      "Um consórcio da indústria publicou a primeira especificação do Universal Serial Bus (USB) em janeiro de 1996",
+    imageCard: "/images/timeline/1996-Certified_USB.svg",
+    imageModal: "/images/timeline/1996-Certified_USB.svg",
+    source:
+      '<a href="https://pt.wikipedia.org/wiki/Ficheiro:Certified_USB.svg"> USB Implementers Forum, Certified USB logo.</a>, Public domain, via Wikimedia Commons',
+    category: "Hardware",
+    longDescription: `Um consórcio da indústria publicou a primeira especificação do Universal Serial Bus (USB) em janeiro de 1996. Inicialmente concebido para simplificar a conexão de dispositivos eletrônicos a um PC, o USB tornou-se uma interface de baixo custo e alta velocidade de grande sucesso para uso doméstico e empresarial. Sua capacidade de suportar novas classes e funcionalidades de dispositivos, incluindo armazenamento de dados, fornecimento de energia e carregamento de bateria, tornou o cabeamento, os conectores e o logotipo do USB reconhecidos mundialmente.
+    `,
   },
   {
     year: "1997",

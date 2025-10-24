@@ -4,11 +4,11 @@
             class="w-full max-w-6xl mx-auto bg-black/30 backdrop-blur-md rounded-2xl border border-white/20 p-8 md:p-12 shadow-lg">
             <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
                 <div>
-                    <img src="https://educatecomputer.com/storage/2024/06/Motherboard-diagram-1024x576.webp"
+                    <img src="/images/componentes/mainboard_labeled.svg"
                         alt="Diagrama de uma placa mãe com seus componentes"
                         class="w-full h-auto object-contain rounded-lg shadow-lg border border-white/10" />
                     <p class="text-xs italic text-gray-300 mt-2 break-all">
-                        Imagem retirada da internet: educatecomputer.com
+                         <a href="https://pt.wikipedia.org/wiki/Ficheiro:LGA_775_Socket_T.jpg"> por user:Moxfyre, labeled diagram of ASRock K7VT4A Pro motherboard (labels in English)</a>, <a href="https://creativecommons.org/licenses/by-sa/2.5/deed.en">CC BY-SA 2.5</a>, via Wikimedia Commons
                     </p>
                 </div>
                 <div class="text-justify min-w-0">
@@ -79,11 +79,11 @@
                     </p>
                 </div>
                 <div>
-                    <img src="https://cdn-ilcfkpn.nitrocdn.com/dYTvffvupnjxELJNiOzugpRXpwHkeglU/assets/images/optimized/rev-f671f2d/educatecomputer.com/storage/2024/12/Motherboard-socket-image.webp"
+                    <img src="/images/componentes/Socket.jpg"
                         alt="Close-up de um socket de processador em uma placa-mãe"
                         class="w-full h-auto object-contain rounded-lg shadow-lg border border-white/10" />
                     <p class="text-xs italic text-gray-300 mt-2 break-all">
-                        Imagem retirada da internet: educatecomputer.com
+                        <a href="https://pt.wikipedia.org/wiki/Ficheiro:LGA_775_Socket_T.jpg"> por JulianVilla26, Socket 775 on a ASRock N73PV-S motherboard</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt">CC BY-SA 4.0</a>, via Wikimedia Commons
                     </p>
                 </div>
             </div>
@@ -92,7 +92,7 @@
 
             <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
                 <div>
-                    <img src="https://static.gigabyte.com/StaticFile/Image/Global/7f2b51423753f4ac1f710f75af75d96f/Product/19773/png/"
+                    <img src="/images/componentes/TPM.png"
                         alt="Close-up de um TPM"
                         class="w-full h-auto object-contain rounded-lg shadow-lg border border-white/10" />
                     <p class="text-xs italic text-gray-300 mt-2 break-all">

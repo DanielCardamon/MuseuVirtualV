@@ -3,7 +3,7 @@
         class="w-full max-w-6xl mx-auto bg-black/30 backdrop-blur-md rounded-2xl border border-white/20 p-8 md:p-12 shadow-lg">
         <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
             <div>
-                <img src="https://wiki.sj.ifsc.edu.br/images/f/f8/Fig_207_MI1022806.jpeg"
+                <img src="/images/componentes/perifericos.jpeg"
                     alt="Imagem de uma Fonte de alimentacao"
                     class="w-full h-auto rounded-lg shadow-lg border border-white/10" />
                 <p class="text-xs italic text-gray-300 mt-2 break-all">
