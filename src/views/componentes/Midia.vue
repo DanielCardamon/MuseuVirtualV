@@ -3,7 +3,7 @@
         class="w-full max-w-6xl mx-auto bg-black/30 backdrop-blur-md rounded-2xl border border-white/20 p-8 md:p-12 shadow-lg">
         <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
             <div class="min-w-0">
-                <img src="https://p2.trrsf.com/image/fget/cf/1548/0/images.terra.com/2014/08/29/armazenamentofotodestaqueistock.jpg"
+                <img src="/images/componentes/armazenamentofotodestaqueistock.webp"
                     alt="Imagem de mídias de armazenamento"
                     class="w-full h-auto object-contain rounded-lg shadow-lg border border-white/10" />
                 <p class="text-xs italic text-gray-300 mt-2">
@@ -44,7 +44,7 @@
                 </p>
             </div>
             <div class="min-w-0">
-                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkpcSTPe7F6z1r9iBZJ_EER7CCTplBGvOrwZfsymhcHbqNAXnTtJ9MPJml1bLlITfJgPrGrk5-0BXbrRSLhwQCcRtLsRq_yJQd56Suul8yJi9ZlksVTbMzD_UG-lrT5lfT3NXr-7Tu7-s/s1600/evolucao_armazenamento.jpg"
+                <img src="/images/componentes/evolucao_armazenamento.jpg"
                     alt="Tira por Gus Morais sobre a evolução das mídias de armazenamento"
                     class="w-full h-auto object-contain rounded-lg shadow-lg border border-white/10" />
                 <p class="text-xs italic text-gray-300 mt-2">

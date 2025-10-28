@@ -3,7 +3,7 @@
         class="w-full max-w-6xl mx-auto bg-black/30 backdrop-blur-md rounded-2xl border border-white/20 p-8 md:p-12 shadow-lg">
         <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
             <div>
-                <img src="https://s2-techtudo.glbimg.com/lj4k23E-2eTQtrYhPYs80OmKpYE=/0x0:620x343/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/Y/A/bjhId5TBW0fBaubJDjzA/2013-10-22-ssdvhd.jpg"
+                <img src="/images/componentes/ssdvhd.webp"
                     alt="Ilustração de um HD e SSD abertos"
                     class="w-full h-auto rounded-lg shadow-lg border border-white/10" />
                 <p class="text-xs italic text-gray-300 mt-2">

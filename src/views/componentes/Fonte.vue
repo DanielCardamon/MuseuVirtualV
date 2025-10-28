@@ -3,10 +3,10 @@
     class="w-full max-w-6xl mx-auto bg-black/30 backdrop-blur-md rounded-2xl border border-white/20 p-8 md:p-12 shadow-lg">
     <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
       <div>
-        <img src="https://www.i-tecnico.pt/wp-content/uploads/2021/07/Fonte-de-alimentacao-001.png"
+        <img src="/images/componentes/PSU-Open.jpg"
           alt="Imagem de uma Fonte de alimentacao" class="w-full h-auto rounded-lg shadow-lg border border-white/10" />
         <p class="text-xs italic text-gray-300 mt-2">
-          Imagem retirada da internet: i-tecnico.pt
+          <a href="https://pt.wikipedia.org/wiki/Ficheiro:LGA_775_Socket_T.jpg"> por mboverload,This is a Power Supply Unit, or PSU, for an ATA computer. The top cover has been removed to show the internals</a>, domínio público, via Wikimedia Commons
         </p>
       </div>
       <div class="text-justify min-w-0">
@@ -50,10 +50,10 @@
       </div>
       <div>
         <img
-          src="https://s2-techtudo.glbimg.com/P8X3JYfrSwFvVIqUPtprycrgAD0=/0x0:3000x3000/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2025/l/S/7gE6HOQL6A4PWFptpFAw/3cb8c402e5a7bc6a9497a06dd06b791f.jpg"
+          src="/images/componentes/conectores.png"
           alt="Exemplos de cabos e conectores" class="w-full h-auto rounded-lg shadow-lg border border-white/10" />
         <p class="text-xs italic text-gray-300 mt-2">
-          Imagem retirada da internet: techtudo.com.br
+          Imagem retirada da internet: www.corsair.com
         </p>
       </div>
     </div>
