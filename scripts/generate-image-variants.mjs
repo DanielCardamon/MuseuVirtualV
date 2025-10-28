@@ -2,7 +2,7 @@ import { promises as fs } from "fs";
 import path from "path";
 import sharp from "sharp";
 
-const IMAGE_FOLDERS = ["timeline", "acervo"];
+const IMAGE_FOLDERS = ["timeline", "acervo", "componentes"];
 const VARIANT_WIDTHS = [480, 960, 1440];
 const PLACEHOLDER_WIDTH = 24;
 const SUPPORTED_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp"]);
@@ -60,7 +60,7 @@ const processImage = async (filePath, rootDir) => {
           quality: 80,
           effort: 4,
         })
-        .toFile(outputPath)
+        .toFile(outputPath),
     );
   }
 
@@ -75,7 +75,7 @@ const processImage = async (filePath, rootDir) => {
         })
         .blur(10)
         .toFormat("webp", { quality: 50, effort: 4 })
-        .toFile(placeholderPath)
+        .toFile(placeholderPath),
     );
   }
 };
@@ -91,13 +91,13 @@ const traverse = async (current, rootDir) => {
         const relative = path.relative(rootDir, entryPath);
         await processImage(relative, rootDir);
       }
-    })
+    }),
   );
 };
 
 const run = async () => {
   console.time("image-variants");
-  
+
   for (const folder of IMAGE_FOLDERS) {
     const rootDir = path.resolve("public", "images", folder);
     try {
@@ -105,14 +105,16 @@ const run = async () => {
       console.log(`Processing folder: ${folder}`);
       await traverse(rootDir, rootDir);
     } catch (error) {
-      console.log(`Skipping folder '${folder}' (does not exist or not accessible)`);
+      console.log(
+        `Skipping folder '${folder}' (does not exist or not accessible)`,
+      );
     }
   }
-  
+
   await Promise.all(pendingTasks);
   console.timeEnd("image-variants");
   console.log(
-    `Processed ${pendingTasks.length} operations across ${VARIANT_WIDTHS.length} variants + placeholder.`
+    `Processed ${pendingTasks.length} operations across ${VARIANT_WIDTHS.length} variants + placeholder.`,
   );
 };
 

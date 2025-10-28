@@ -1,11 +1,33 @@
+<script setup>
+import { useLazyImage } from "../../composables/useLazyImage.js";
+
+const { vLazy, createResponsiveImageConfig } = useLazyImage();
+
+const COMPONENT_IMAGE_SIZES =
+    "(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 40vw";
+
+const armazenamentoImage = createResponsiveImageConfig(
+    "/images/componentes/armazenamentofotodestaqueistock.webp",
+    COMPONENT_IMAGE_SIZES,
+);
+
+const evolucaoImage = createResponsiveImageConfig(
+    "/images/componentes/evolucao_armazenamento.jpg",
+    COMPONENT_IMAGE_SIZES,
+);
+</script>
+
 <template>
     <div
-        class="w-full max-w-6xl mx-auto bg-black/30 backdrop-blur-md rounded-2xl border border-white/20 p-8 md:p-12 shadow-lg">
+        class="w-full max-w-6xl mx-auto bg-black/30 backdrop-blur-md rounded-2xl border border-white/20 p-8 md:p-12 shadow-lg"
+    >
         <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
             <div class="min-w-0">
-                <img src="/images/componentes/armazenamentofotodestaqueistock.webp"
+                <img
+                    v-lazy="armazenamentoImage"
                     alt="Imagem de mídias de armazenamento"
-                    class="w-full h-auto object-contain rounded-lg shadow-lg border border-white/10" />
+                    class="w-full h-auto object-contain rounded-lg shadow-lg border border-white/10"
+                />
                 <p class="text-xs italic text-gray-300 mt-2">
                     Imagem retirada da internet: Terra.com.br
                 </p>
@@ -13,15 +35,17 @@
             <div class="text-justify min-w-0">
                 <h1 class="text-3xl md:text-4xl font-bold mb-4">Mídias</h1>
                 <p class="text-base md:text-lg leading-relaxed mb-4">
-                    No contexto de hardware de computador, "mídia" refere-se a dispositivos de armazenamento e
-                    comunicação que
-                    permitem guardar dados ou transferir informações entre sistemas, dispositivos de armazenamento
-                    primários
-                    como HDs, SSDs, secundários como pen drives, discos óticos (CD/DVD), e também os componentes de rede
-                    que
-                    possibilitam essa troca de dados, como cabos e Wi-Fi. </p>
+                    No contexto de hardware de computador, "mídia" refere-se a
+                    dispositivos de armazenamento e comunicação que permitem
+                    guardar dados ou transferir informações entre sistemas,
+                    dispositivos de armazenamento primários como HDs, SSDs,
+                    secundários como pen drives, discos óticos (CD/DVD), e
+                    também os componentes de rede que possibilitam essa troca de
+                    dados, como cabos e Wi-Fi.
+                </p>
                 <p class="text-xs italic text-gray-300 mt-2 break-all">
-                    Fonte: IBM - https://www.ibm.com/br-pt/think/topics/data-storage
+                    Fonte: IBM -
+                    https://www.ibm.com/br-pt/think/topics/data-storage
                 </p>
             </div>
         </div>
@@ -30,63 +54,70 @@
             <div class="text-justify min-w-0">
                 <h1 class="text-3xl md:text-4xl font-bold mb-4">Evolução</h1>
                 <p class="text-base md:text-lg leading-relaxed mb-4">
-                    A evolução das mídias de armazenamento de dados é marcada por um caminho de miniaturização, aumento
-                    de
-                    capacidade e velocidade, passando por cartões perfurados e fitas magnéticas para disquetes, CDs,
-                    DVDs,
-                    cartões de memória, pendrives e, mais recentemente, para os SSDs e o armazenamento em nuvem. Essa
-                    transição reflete um avanço constante para armazenar mais informações de forma mais eficiente,
-                    portátil e
-                    acessível.
+                    A evolução das mídias de armazenamento de dados é marcada
+                    por um caminho de miniaturização, aumento de capacidade e
+                    velocidade, passando por cartões perfurados e fitas
+                    magnéticas para disquetes, CDs, DVDs, cartões de memória,
+                    pendrives e, mais recentemente, para os SSDs e o
+                    armazenamento em nuvem. Essa transição reflete um avanço
+                    constante para armazenar mais informações de forma mais
+                    eficiente, portátil e acessível.
                 </p>
                 <p class="text-xs italic text-gray-300 mt-2 break-all">
-                    Fonte: CBL Soluções - https://cblsolucoes.com.br/2022/07/11/evolucao-do-armazenamento-de-dados/
+                    Fonte: CBL Soluções -
+                    https://cblsolucoes.com.br/2022/07/11/evolucao-do-armazenamento-de-dados/
                 </p>
             </div>
             <div class="min-w-0">
-                <img src="/images/componentes/evolucao_armazenamento.jpg"
+                <img
+                    v-lazy="evolucaoImage"
                     alt="Tira por Gus Morais sobre a evolução das mídias de armazenamento"
-                    class="w-full h-auto object-contain rounded-lg shadow-lg border border-white/10" />
+                    class="w-full h-auto object-contain rounded-lg shadow-lg border border-white/10"
+                />
                 <p class="text-xs italic text-gray-300 mt-2">
                     Imagem retirada da internet: Tira por Gus Morais
                 </p>
             </div>
-
         </div>
         <hr class="my-8 md:my-12 border-white/20" />
         <div class="text-justify min-w-0">
             <h1 class="text-3xl md:text-4xl font-bold mb-4">História</h1>
             <p class="text-base md:text-lg leading-relaxed mb-4">
-                Talvez a melhor história sobre dispositivos de armazenamento de dados esteja nas primeiras 12 páginas do
-                livro From Pots and Vats to Programs and Apps: How Software Learned to Package Itself de Gordan Haff e
-                William Henry.
+                Talvez a melhor história sobre dispositivos de armazenamento de
+                dados esteja nas primeiras 12 páginas do livro From Pots and
+                Vats to Programs and Apps: How Software Learned to Package
+                Itself de Gordan Haff e William Henry.
             </p>
             <p class="text-base md:text-lg leading-relaxed mb-4">
-                Nele, Gordan e William descrevem como um tecelão de 1725 programava teares usando cartões perfurados
-                inspirados em cilindros de órgãos automatizados. Os cartões perfurados adicionavam informações a um
-                computador do século XIX durante o censo americano de 1890 e permaneceram populares até a era das
-                unidades
-                de fita magnética, iniciada na década de 1950. Desse momento em diante, o tamanho das unidades de fita
-                magnética encolheu até se tornarem fitas cassete.
+                Nele, Gordan e William descrevem como um tecelão de 1725
+                programava teares usando cartões perfurados inspirados em
+                cilindros de órgãos automatizados. Os cartões perfurados
+                adicionavam informações a um computador do século XIX durante o
+                censo americano de 1890 e permaneceram populares até a era das
+                unidades de fita magnética, iniciada na década de 1950. Desse
+                momento em diante, o tamanho das unidades de fita magnética
+                encolheu até se tornarem fitas cassete.
             </p>
             <p class="text-base md:text-lg leading-relaxed mb-4">
-                Pouco antes da década de 1970, a IBM lançou o disquete, que era usado para quase tudo. Disquetes
-                inicializavam mainframes (unidades centrais de processamento), aplicações de software armazenadas e eram
-                o
-                único dispositivo de armazenamento persistente disponível até as unidades de disco rígido (HDDs)
-                sofrerem
-                queda de preço.
+                Pouco antes da década de 1970, a IBM lançou o disquete, que era
+                usado para quase tudo. Disquetes inicializavam mainframes
+                (unidades centrais de processamento), aplicações de software
+                armazenadas e eram o único dispositivo de armazenamento
+                persistente disponível até as unidades de disco rígido (HDDs)
+                sofrerem queda de preço.
             </p>
             <p class="text-base md:text-lg leading-relaxed mb-4">
-                As HDDs se tornaram discos compactos (CDs) na década de 1980 e as unidades de estado sólido (SSDs)
-                substituíram os discos rotatórios por chips sólidos e memória flash.
+                As HDDs se tornaram discos compactos (CDs) na década de 1980 e
+                as unidades de estado sólido (SSDs) substituíram os discos
+                rotatórios por chips sólidos e memória flash.
             </p>
             <p class="text-base md:text-lg leading-relaxed mb-4">
-                Agora, o armazenamento flash cabe no nosso bolso, em pendrives que guardam cópias de tudo o que queremos
-                ou precisamos.
+                Agora, o armazenamento flash cabe no nosso bolso, em pendrives
+                que guardam cópias de tudo o que queremos ou precisamos.
             </p>
             <p class="text-xs italic text-gray-300 mt-2 break-all">
-                Fonte: Red Hat - https://www.redhat.com/pt-br/topics/data-storage
+                Fonte: Red Hat -
+                https://www.redhat.com/pt-br/topics/data-storage
             </p>
         </div>
     </div>
