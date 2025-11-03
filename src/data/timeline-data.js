@@ -833,6 +833,131 @@ O primeiro smartphone Android disponível ao público foi o HTC Dream, também c
 O Android se tornou o sistema operacional móvel mais popular do mundo. Em agosto de 2023, o sistema operacional Android estava instalado em 70% dos dispositivos móveis, enquanto o iOS da Apple representava 28%.`,
   },
   {
+      year: "2008",
+      title: "Blu-ray vence guerra dos formatos",
+      shortDescription: "Em 2008, o Blu-ray consolidou-se como o padrão de mídia em alta definição, superando o HD DVD e sendo adotado amplamente na indústria.",
+      imageCard: "/images/timeline/2008-Blu-ray",
+      imageModal: "/images/timeline/2008-Blu-ray",
+      sourceCard: '<a href="https://pt.wikipedia.org/wiki/Ficheiro:Blu-ray_200GB.png">@Google, Blu-ray Soni de 200GB </a>,',
+      sourceModal: '<a href="https://pt.wikipedia.org/wiki/Ficheiro:Blu-ray_200GB.png">@Google, Blu-ray Soni de 200GB </a>,',
+      category: ["hardware"],
+      longDescription: `Em 2008, após uma disputa entre os formatos de discos ópticos HD DVD e Blu-ray, o Blu-ray consolidou-se como o padrão dominante para mídia de alta definição. Desenvolvido pela Sony, o formato ofereceu uma capacidade de armazenamento significativamente maior — cerca de 25 GB por camada — em comparação com o HD DVD, além de suporte a resoluções superiores e melhor qualidade de áudio e vídeo.
+  O Blu-ray foi adotado por grandes estúdios cinematográficos e integrado ao console PlayStation 3, o que contribuiu para sua ampla aceitação no mercado. Em fevereiro de 2008, a Toshiba, responsável pelo HD DVD, anunciou a descontinuação desse formato, encerrando a chamada "guerra dos formatos".
+  As vantagens do Blu-ray incluíram maior capacidade para conteúdos em alta definição, suporte a funcionalidades interativas avançadas e compatibilidade com diversos dispositivos, como consoles de videogame e players domésticos. Como desvantagem, o formato exigia leitores específicos e apresentava custos de produção superiores aos DVDs tradicionais, o que retardou a adoção inicial em massa.
+  O Blu-ray manteve sua relevância no mercado de mídia física, sendo utilizado em consoles posteriores como PS4 e Xbox One, consolidando-se como padrão para distribuição de filmes e jogos em alta definição.`,
+  },
+  {
+      year: "2010",
+      title: "Apple iPad no Reino Unido",
+      shortDescription: "Lançado em maio de 2010 no Reino Unido, o iPad expandiu o alcance do primeiro tablet da Apple, definindo um novo padrão para dispositivos móveis.",
+      imageCard: "/images/timeline/",
+      imageModal: "/images/timeline/",
+      sourceCard: '<a href="link da imagem">Autor, descrição </a>,',
+      sourceModal: '<a href="link da imagem">Autor, descrição </a>,',
+      category: ["hardware"],
+      longDescription: `Lançado no Reino Unido em maio de 2010, o iPad expandiu a disponibilidade do primeiro tablet da Apple, originalmente lançado nos Estados Unidos no mês anterior. O dispositivo foi desenvolvido para ocupar uma nova categoria entre smartphones e laptops, apresentando uma tela de 9,7 polegadas e operando com o sistema iOS, o mesmo usado em iPhones e iPods.
+  O iPad funcionava como uma plataforma de consumo multimídia, permitindo navegação web, reprodução de vídeo, leitura de livros digitais, execução de jogos e acesso a aplicativos otimizados para sua tela. A integração com a App Store possibilitou uma vasta gama de aplicativos específicos, promovendo uma experiência de uso versátil e imersiva.
+  Entre as vantagens estavam a interface intuitiva, a portabilidade e a ampla biblioteca de aplicativos. No entanto, o dispositivo carecia de câmera e apresentava um sistema operacional fechado, o que limitava a personalização e o uso de software de terceiros não aprovados pela Apple.
+  Apesar dessas limitações, o iPad consolidou-se como um marco na indústria, influenciando o desenvolvimento dos tablets modernos e estabelecendo um novo padrão para dispositivos móveis de médio porte.`,
+  },
+  {
+      year: "2011",
+      title: "Nintendo 3DS",
+      shortDescription: "Lançado em fevereiro de 2011, o Nintendo 3DS introduziu tecnologia 3D sem óculos nos consoles portáteis, oferecendo uma experiência imersiva e inovadora.",
+      imageCard: "/images/timeline/",
+      imageModal: "/images/timeline/",
+      sourceCard: '<a href="link da imagem">Autor, descrição </a>,',
+      sourceModal: '<a href="link da imagem">Autor, descrição </a>,',
+      category: ["hardware"],
+      longDescription: `Em fevereiro de 2011, a Nintendo lançou o Nintendo 3DS no Japão, trazendo uma revolução para os consoles portáteis ao introduzir a tecnologia de 3D sem óculos. Com um design compacto e tela de 3,53 polegadas, o 3DS permitia que os jogadores experimentassem gráficos em 3D de forma imersiva, sem a necessidade de acessórios adicionais, algo inédito para um dispositivo portátil na época.
+  O console possuía recursos avançados, como uma tela superior com capacidade 3D ajustável e uma tela inferior sensível ao toque, além de câmeras 3D que permitiam aos jogadores capturar fotos em três dimensões. O StreetPass e o SpotPass também foram introduzidos, oferecendo funcionalidades de troca de dados e comunicação com outros dispositivos enquanto o 3DS estava em modo de espera, algo que trouxe uma nova dinâmica para jogos sociais e interações entre usuários.
+  O Nintendo 3DS também era retrocompatível com os jogos do Nintendo DS, ampliando sua biblioteca de títulos desde o lançamento. O console recebeu apoio de grandes franquias da Nintendo, como Super Mario, The Legend of Zelda e Pokémon, além de outros títulos de desenvolvedores externos.
+  Embora tenha sido inovador, o lançamento inicial do 3DS enfrentou desafios, como o preço elevado e a falta de conteúdo 3D relevante logo de início. A Nintendo acabou reduzindo o preço do dispositivo em agosto de 2011, o que ajudou a aumentar suas vendas. A plataforma, no entanto, se consolidou com o tempo, especialmente após o lançamento de jogos populares e com o aumento do apoio de desenvolvedores externos, tornando-se um sucesso para a Nintendo.`,
+  },
+  {
+      year: "2011",
+      title: "Sony PlayStation Vita",
+      shortDescription: "Lançado em dezembro de 2011 no Japão, o PS Vita trouxe hardware potente e inovação nos controles, buscando aproximar a experiência portátil da de consoles domésticos.",
+      imageCard: "/images/timeline/",
+      imageModal: "/images/timeline/",
+      sourceCard: '<a href="link da imagem">Autor, descrição </a>,',
+      sourceModal: '<a href="link da imagem">Autor, descrição </a>,',
+      category: ["hardware"],
+      longDescription: `Em dezembro de 2011, a Sony lançou o PlayStation Vita no Japão, marcando o início da sua segunda tentativa de dominar o mercado de consoles portáteis, após o sucesso do PSP. O PS Vita trouxe várias inovações, destacando-se pelo hardware potente e recursos multimídia avançados para a época, com o objetivo de proporcionar uma experiência de jogo quase equivalente à de consoles domésticos.
+  O PS Vita foi equipado com uma tela sensível ao toque de 5 polegadas OLED (em sua versão inicial), oferecendo cores vibrantes e alta resolução. Além disso, o console possuía um touchpad traseiro, que ampliava as opções de controle, e dois joysticks analógicos, uma característica que o diferenciava de outros portáteis da época e facilitava a jogabilidade em títulos mais complexos.
+  O PS Vita também foi um dos primeiros dispositivos a contar com conectividade 3G (em algumas versões), além de Wi-Fi, permitindo aos jogadores acessar a internet, jogar online e baixar conteúdos diretamente do PlayStation Store. A integração com o ecossistema PlayStation foi um dos pontos fortes, permitindo que os usuários jogassem títulos exclusivos e aproveitassem o Cross-Play com o PlayStation 3.
+  Apesar de suas inovações, o PS Vita enfrentou dificuldades comerciais, em grande parte devido à concorrência dos smartphones e da falta de uma linha de jogos mais atrativa. Além disso, o preço elevado e a ausência de suporte de grandes desenvolvedores também contribuíram para o seu desempenho abaixo das expectativas de vendas. Mesmo assim, o PS Vita permanece um marco na evolução dos consoles portáteis, sendo lembrado por sua poderosa performance gráfica e por algumas experiências de jogo imersivas.`,
+  },
+  {
+      year: "2011",
+      title: "Sony PlayStation Vita",
+      shortDescription: "Lançado em dezembro de 2011 no Japão, o PS Vita trouxe hardware potente e inovação nos controles, buscando aproximar a experiência portátil da de consoles domésticos.",
+      imageCard: "/images/timeline/",
+      imageModal: "/images/timeline/",
+      sourceCard: '<a href="link da imagem">Autor, descrição </a>,',
+      sourceModal: '<a href="link da imagem">Autor, descrição </a>,',
+      category: ["hardware"],
+      longDescription: `Em dezembro de 2011, a Sony lançou o PlayStation Vita no Japão, marcando o início da sua segunda tentativa de dominar o mercado de consoles portáteis, após o sucesso do PSP. O PS Vita trouxe várias inovações, destacando-se pelo hardware potente e recursos multimídia avançados para a época, com o objetivo de proporcionar uma experiência de jogo quase equivalente à de consoles domésticos.
+  O PS Vita foi equipado com uma tela sensível ao toque de 5 polegadas OLED (em sua versão inicial), oferecendo cores vibrantes e alta resolução. Além disso, o console possuía um touchpad traseiro, que ampliava as opções de controle, e dois joysticks analógicos, uma característica que o diferenciava de outros portáteis da época e facilitava a jogabilidade em títulos mais complexos.
+  O PS Vita também foi um dos primeiros dispositivos a contar com conectividade 3G (em algumas versões), além de Wi-Fi, permitindo aos jogadores acessar a internet, jogar online e baixar conteúdos diretamente do PlayStation Store. A integração com o ecossistema PlayStation foi um dos pontos fortes, permitindo que os usuários jogassem títulos exclusivos e aproveitassem o Cross-Play com o PlayStation 3.
+  Apesar de suas inovações, o PS Vita enfrentou dificuldades comerciais, em grande parte devido à concorrência dos smartphones e da falta de uma linha de jogos mais atrativa. Além disso, o preço elevado e a ausência de suporte de grandes desenvolvedores também contribuíram para o seu desempenho abaixo das expectativas de vendas. Mesmo assim, o PS Vita permanece um marco na evolução dos consoles portáteis, sendo lembrado por sua poderosa performance gráfica e por algumas experiências de jogo imersivas.`,
+  },
+  {
+      year: "2012",
+      title: "Nintendo Wii U",
+      shortDescription: "Lançado em novembro de 2012, o Wii U apresentou o GamePad com tela sensível ao toque, introduzindo novas formas de interação e marcando a entrada da Nintendo na oitava geração de consoles.",
+      imageCard: "/images/timeline/",
+      imageModal: "/images/timeline/",
+      sourceCard: '<a href="link da imagem">Autor, descrição </a>,',
+      sourceModal: '<a href="link da imagem">Autor, descrição </a>,',
+      category: ["hardware"],
+      longDescription: `Lançado em novembro de 2012, o Wii U foi o sucessor do popular Wii, marcando a entrada da Nintendo na oitava geração de consoles. O Wii U se destacou principalmente pelo seu controle inovador, o GamePad, que possuía uma tela sensível ao toque de 6,2 polegadas, permitindo uma nova forma de interação com os jogos, seja para complementar a jogabilidade ou até mesmo para jogar de forma independente da TV.
+  O console apresentava gráficos em HD, uma melhoria significativa em relação ao Wii, que usava gráficos padrão. Além disso, o Wii U foi projetado para oferecer uma experiência de jogo mais robusta, com processadores mais rápidos e maior capacidade de armazenamento. Porém, o console enfrentou desafios em termos de adoção de desenvolvedores de jogos e aceitação do mercado, em grande parte devido à confusão em torno de seu nome e à falta de uma linha forte de jogos exclusivos logo no lançamento.
+  O Wii U manteve a filosofia da Nintendo de promover a jogabilidade local, com suporte para até quatro controles simultâneos e uma grande ênfase em jogos familiares e multiplayer. Também continuou a tradição do Wii de integrar o movimento físico no controle, mas com uma abordagem mais orientada a novas formas de interação, como o uso de recursos de tela sensível ao toque e sensores de movimento no GamePad.
+  Embora o Wii U não tenha atingido o sucesso comercial esperado, com vendas abaixo das de seus concorrentes, o console foi importante na experimentação de novas ideias de interface e interatividade no mundo dos videogames. Muitas dessas inovações foram posteriormente adaptadas e melhoradas no Nintendo Switch, que viria a ser lançado em 2017.`,
+  },
+  {
+      year: "2013",
+      title: "Sony PlayStation 4",
+      shortDescription: "Lançado em novembro de 2013, o PlayStation 4 focou na performance de jogos, integração online e experiência social, tornando-se um dos consoles mais populares da oitava geração.",
+      imageCard: "/images/timeline/",
+      imageModal: "/images/timeline/",
+      sourceCard: '<a href="link da imagem">Autor, descrição </a>,',
+      sourceModal: '<a href="link da imagem">Autor, descrição </a>,',
+      category: ["hardware"],
+      longDescription: `Lançado em novembro de 2013, o PlayStation 4 (PS4) foi o quarto console da Sony na linha PlayStation e sucedeu o PlayStation 3. Com foco principal em desempenho para jogos, o PS4 foi projetado para oferecer uma experiência de jogo superior, com gráficos melhorados, processamento mais rápido e uma maior integração com a internet e redes sociais.
+  O PS4 foi equipado com um processador x86-64 AMD Jaguar, uma GPU customizada e 8 GB de memória GDDR5, o que garantiu uma performance gráfica robusta e maior fluidez nas jogadas, superando em vários aspectos o desempenho do seu predecessor, o PS3. A Sony também priorizou o design mais simples e eficiente, com um console menor, mais silencioso e com melhor dissipação de calor.
+  Um dos pontos fortes do PS4 foi sua ênfase na jogabilidade online através da plataforma PlayStation Network (PSN). A Sony aprimorou os recursos de multiplayer, permitindo aos jogadores se conectar facilmente com amigos, compartilhar vídeos de gameplay e transmitir partidas ao vivo. A integração com serviços como o Twitch e a facilidade para gravar e compartilhar jogos via Share Button no controle DualShock 4 foram inovações importantes que destacaram o PS4.
+  Em comparação com seu principal concorrente, o Xbox One, o PS4 se destacou pelo menor preço e pela menor ênfase em ser um centro de mídia multimídia, mantendo o foco na experiência de jogo. Essa abordagem foi bem recebida por muitos jogadores, e o PS4 acabou superando o Xbox One em vendas nos primeiros anos após o lançamento, consolidando-se como um dos consoles mais populares da oitava geração de videogames.`,
+  },
+  {
+      year: "2013",
+      title: "Microsoft Xbox One",
+      shortDescription: "Lançado em novembro de 2013, o Xbox One foi a terceira geração de consoles da Microsoft, combinando jogos com recursos multimídia e forte integração online.",
+      imageCard: "/images/timeline/",
+      imageModal: "/images/timeline/",
+      sourceCard: '<a href="link da imagem">Autor, descrição </a>,',
+      sourceModal: '<a href="link da imagem">Autor, descrição </a>,',
+      category: ["hardware"],
+      longDescription: `Lançado em novembro de 2013, o Xbox One foi a terceira geração do console de videogame da Microsoft, sucessor do Xbox 360. Com foco em ser uma plataforma de entretenimento doméstico all-in-one, o Xbox One não era apenas um console de jogos, mas também um centro multimídia, integrando funcionalidades de TV, streaming e controle por voz.
+  O console trouxe várias melhorias em relação ao seu antecessor, incluindo gráficos aprimorados e um novo processador, o que resultou em um desempenho superior em jogos. A Xbox One também apresentou o novo Kinect 2.0, com reconhecimento de gestos e comandos de voz mais precisos, além de melhorias em sua conectividade com a internet e outros dispositivos.
+  Uma das mudanças mais significativas no lançamento do Xbox One foi sua ênfase em conectividade online e o uso de serviços como o Xbox Live para multiplayer e distribuição digital de jogos. O console também foi projetado para ser o centro de controle de todo o sistema de entretenimento doméstico, oferecendo integração com TV ao vivo, streaming de mídia e navegação pela web.
+  Apesar de seu foco em ser um centro de mídia, o lançamento do Xbox One não foi isento de controvérsias. O console inicialmente exigia uma conexão constante à internet para funcionar e tinha restrições sobre o uso de jogos usados, o que gerou críticas por parte dos consumidores. No entanto, após mudanças em sua política e ajustes nas características do dispositivo, o Xbox One se estabilizou no mercado, se tornando um concorrente de peso para o PlayStation 4.`,
+  },
+  {
+      year: "2014",
+      title: "Google Android Wear",
+      shortDescription: "Em junho de 2014, o Google lançou o Android Wear, uma versão do Android para smartwatches, integrando fabricantes e expandindo o ecossistema de relógios inteligentes.",
+      imageCard: "/images/timeline/",
+      imageModal: "/images/timeline/",
+      sourceCard: '<a href="link da imagem">Autor, descrição </a>,',
+      sourceModal: '<a href="link da imagem">Autor, descrição </a>,',
+      category: ["hardware"],
+      longDescription: `Em junho de 2014, o Google lançou o Android Wear, uma versão adaptada do sistema operacional Android para dispositivos vestíveis, especialmente smartwatches. A plataforma foi desenvolvida para integrar diferentes fabricantes de hardware, oferecendo um sistema operacional padronizado para relógios inteligentes. Seu funcionamento baseava-se na sincronização com smartphones Android, permitindo exibição de notificações, controle de música, monitoramento de atividades físicas e reconhecimento de comandos de voz via Google Now.
+  O sistema utilizava recursos de inteligência artificial para personalizar a interação e oferecer respostas contextuais, melhorando a usabilidade. A arquitetura aberta possibilitou que fabricantes como LG, Motorola e Samsung lançassem dispositivos compatíveis, ampliando o ecossistema de smartwatches Android. Entre as vantagens estavam a diversidade de dispositivos, a integração com o Google Assistente e a capacidade de executar apps otimizados para uso rápido no pulso.
+  Entretanto, a dependência do smartphone para várias funções, limitações na autonomia da bateria e restrições no campo de funcionalidades iniciais foram desvantagens percebidas. Com o tempo, o Android Wear evoluiu para o Wear OS, aprimorando conectividade e recursos, mas o lançamento inicial estabeleceu um padrão fundamental para o mercado de smartwatches.`,
+  },
+  {
     year: "2014",
     title: "O Micro Mote da Universidade de Michigan",
     shortDescription:
@@ -849,6 +974,46 @@ O Android se tornou o sistema operacional móvel mais popular do mundo. Em agost
     longDescription: `O Micro Mote da Universidade de Michigan é o menor computador do mundo. Os motes, medindo pouco mais de 1 milímetro cúbico, eram alimentados por uma pequena bateria e podiam coletar luz solar por meio de uma fotocélula, o suficiente para fornecer a pequena quantidade de energia que um mote consome — cerca de um trilionésimo de watt. Três tipos de motes foram inicialmente introduzidos: dois que medem temperatura ou pressão e um que podia capturar imagens. Desde então, foram desenvolvidos motes que reconhecem sons diferentes, medem a luz, rastreiam a posição e registram a atividade cerebral.
 
 Os grãos de poeira também são conhecidos como "pó inteligente", pois seu tamanho minúsculo e baixo custo os tornam baratos o suficiente para serem "espalhados" no mundo real como sensores. Um ecologista, por exemplo, poderia espalhar milhares de grãos de poeira do ar em um campo e medir a temperatura do solo e do ar, a umidade e a luz solar, gerando dados precisos sobre o ambiente em tempo real.`,
+  },
+  {
+    year: "2015",
+    title: "Microsoft HoloLens",
+    shortDescription: "Lançado em janeiro de 2015, o Microsoft HoloLens foi um dos primeiros dispositivos de realidade mista autônomos, permitindo a visualização de hologramas no ambiente real sem necessidade de cabos ou computadores externos.",
+    imageCard: "/images/timeline/",
+    imageModal: "/images/timeline/",
+    sourceCard: '<a href="https://g1.globo.com/tecnologia/noticia/2016/05/com-hololens-microsoft-quer-evitar-erros-do-google.html">Beck Diefenbach/Reuters, Óculos de realidade aumentada HoloLens. </a>,',
+    sourceModal: '<a href="https://g1.globo.com/tecnologia/noticia/2016/05/com-hololens-microsoft-quer-evitar-erros-do-google.html">Beck Diefenbach/Reuters, Óculos de realidade aumentada HoloLens. </a>,',
+    category: ["hardware"],
+    longDescription: `Lançado em janeiro de 2015, o Microsoft HoloLens foi um dos primeiros dispositivos de realidade mista (MR) a integrar elementos virtuais ao ambiente físico de forma autônoma. Utilizou um visor translúcido que permitia ao usuário visualizar hologramas sobrepostos ao mundo real, sem bloquear a visão do ambiente. O funcionamento baseava-se em um conjunto de sensores, câmeras de profundidade e unidades de processamento dedicadas, incluindo a Holographic Processing Unit (HPU), responsável por interpretar gestos, voz e mapeamento espacial em tempo real.
+O HoloLens operava sem a necessidade de conexão com computadores externos, integrando todos os componentes de processamento e visualização em um único headset. Isso permitiu mobilidade e aplicação em áreas como engenharia, arquitetura, medicina e educação. Entre as principais vantagens estavam a interação natural com elementos 3D, a precisão no rastreamento espacial e a independência de cabos ou hardware adicional.
+As limitações incluíram um campo de visão restrito para os hologramas, alto custo e foco restrito ao uso corporativo e industrial. O dispositivo não foi projetado para o mercado consumidor, o que limitou sua adoção em larga escala.`,
+  },
+  {
+    year: "2015",
+    title: "Apple Watch",
+    shortDescription: "Lançado em abril de 2015, o Apple Watch foi o primeiro smartwatch da Apple, destacando-se pelo design sofisticado, integração com iPhone e recursos de saúde, notificações e pagamentos com Apple Pay.",
+    imageCard: "/images/timeline/",
+    imageModal: "/images/timeline/",
+    sourceCard: '<a href="https://g1.globo.com/tecnologia/noticia/2015/10/apple-watch-chega-ao-brasil-dia-1610-e-custa-partir-de-r-29-mil.html">Reuters/Beck Diefenbach, Apple Watch Edition em ouro rosa e com a pulseira com “fecho moderno” </a>,',
+    sourceModal: '<a href="https://g1.globo.com/tecnologia/noticia/2015/10/apple-watch-chega-ao-brasil-dia-1610-e-custa-partir-de-r-29-mil.html">Reuters/Beck Diefenbach, Apple Watch Edition em ouro rosa e com a pulseira com “fecho moderno” </a>,',
+    category: ["hardware"],
+    longDescription: `Lançado em abril de 2015, o Apple Watch foi o primeiro smartwatch da Apple, marcando sua entrada no mercado de dispositivos vestíveis. Disponível em três modelos — Apple Watch, Apple Watch Sport e Apple Watch Edition — o dispositivo misturava alta tecnologia com design sofisticado, utilizando materiais como alumínio, aço inoxidável e ouro de 18 quilates. A tela Retina, com vidro curvado, e o icônico botão Digital Crown eram características marcantes, oferecendo uma experiência visual e interativa única.
+Equipado com uma versão adaptada do sistema iOS, o Apple Watch trouxe novas funcionalidades, como a exibição de notificações, chamadas telefônicas, controle de música e monitoramento de saúde. Incluía sensores de frequência cardíaca e integrava-se ao app Saúde, permitindo um acompanhamento mais preciso do bem-estar do usuário. Outra inovação foi a introdução do Apple Pay, permitindo pagamentos diretamente do relógio, sem a necessidade de cartão físico.
+Apesar de apresentar algumas limitações iniciais, como a dependência do iPhone para muitas funções e a duração da bateria, o Apple Watch abriu caminho para a popularização dos smartwatches, estabelecendo novos padrões para dispositivos vestíveis.`,
+  },
+  {
+    year: "2015",
+    title: "Raspberry Pi Zero",
+    shortDescription: "O Raspberry Pi Zero é um mini computador acessível criado para facilitar o aprendizado de computação e programação. Compacto e completo, é usado globalmente em projetos educativos e de automação.",
+    imageCard: "/images/timeline/2015-raspberry_pi_zero.jpg",
+    imageModal: "/images/timeline/2015-raspberry_pi_zero.jpg",
+    sourceCard: '<a href="https://www.raspberrypi.com/products/raspberry-pi-zero">"Raspberry Pi Foundation", Computador compacto e acessível para projetos e aprendizado. </a>,',
+    sourceModal: '<a href="https://www.raspberrypi.com/products/raspberry-pi-zero">"Raspberry Pi Foundation", Computador compacto e acessível para projetos e aprendizado. </a>,',
+    category: ["Hardware"],
+    longDescription: `O Raspberry Pi Zero é um mini computador criado pela Raspberry Pi Foundation. Ele foi lançado em novembro 2015 com o objetivo de oferecer uma opção extremamente barata e acessível para quem quisesse aprender computação e programação. Apesar de ser muito pequeno — menor que um celular —, ele é um computador completo, capaz de rodar um sistema operacional, acessar a internet (dependendo do modelo), e se conectar a diversos tipos de dispositivos eletrônicos.
+A ideia original era atingir principalmente estudantes e escolas, oferecendo uma forma de ensinar tecnologia de maneira prática e divertida. Mas, com o tempo, o Raspberry Pi Zero acabou conquistando um público bem mais amplo. Hoje em dia, ele é usado por pessoas do mundo todo em projetos de automação residencial, robótica, internet das coisas (IoT), sistemas de segurança, media centers, e até para transformar velhos controles ou videogames em consoles retrô.
+Para funcionar, o Pi Zero precisa apenas de uma fonte de energia, um cartão microSD com o sistema instalado, e os acessórios básicos como teclado, mouse e monitor — embora muitos projetos usem o Zero sem tela, funcionando de forma automática ou remota. Como ele é muito pequeno e consome pouca energia, se tornou uma escolha popular entre pessoas que querem criar soluções tecnológicas simples, baratas e eficientes.
+Embora existam outros dispositivos semelhantes no mercado, como as placas Arduino ou o Micro:bit da BBC, o Raspberry Pi Zero se destaca por oferecer um conjunto mais completo de recursos em um formato reduzido. Ele acabou sendo utilizado em diversos tipos de projetos, tanto educacionais quanto pessoais, e segue sendo uma escolha comum entre pessoas interessadas em computação e eletrônica, especialmente quando o objetivo é testar ideias de forma acessível.`,
   },
   {
     year: "2022",
