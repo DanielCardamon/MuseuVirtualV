@@ -850,10 +850,10 @@ O Android se tornou o sistema operacional móvel mais popular do mundo. Em agost
       year: "2010",
       title: "Apple iPad no Reino Unido",
       shortDescription: "Lançado em maio de 2010 no Reino Unido, o iPad expandiu o alcance do primeiro tablet da Apple, definindo um novo padrão para dispositivos móveis.",
-      imageCard: "/images/timeline/",
-      imageModal: "/images/timeline/",
-      sourceCard: '<a href="link da imagem">Autor, descrição </a>,',
-      sourceModal: '<a href="link da imagem">Autor, descrição </a>,',
+      imageCard: "/images/timeline/2010-iPad-1",
+      imageModal: "/images/timeline/2010-iPad-1",
+      sourceCard: '<a href="https://ihelpbr.com/primeiro-ipad-apresentado-ha-10-anos/">Filipe Espósito, Primeiro iPad lançado em 2010 </a>,',
+      sourceModal: '<a href="https://ihelpbr.com/primeiro-ipad-apresentado-ha-10-anos/">Filipe Espósito, Primeiro iPad lançado em 2010 </a>,',
       category: ["hardware"],
       longDescription: `Lançado no Reino Unido em maio de 2010, o iPad expandiu a disponibilidade do primeiro tablet da Apple, originalmente lançado nos Estados Unidos no mês anterior. O dispositivo foi desenvolvido para ocupar uma nova categoria entre smartphones e laptops, apresentando uma tela de 9,7 polegadas e operando com o sistema iOS, o mesmo usado em iPhones e iPods.
   O iPad funcionava como uma plataforma de consumo multimídia, permitindo navegação web, reprodução de vídeo, leitura de livros digitais, execução de jogos e acesso a aplicativos otimizados para sua tela. A integração com a App Store possibilitou uma vasta gama de aplicativos específicos, promovendo uma experiência de uso versátil e imersiva.
@@ -864,10 +864,10 @@ O Android se tornou o sistema operacional móvel mais popular do mundo. Em agost
       year: "2011",
       title: "Nintendo 3DS",
       shortDescription: "Lançado em fevereiro de 2011, o Nintendo 3DS introduziu tecnologia 3D sem óculos nos consoles portáteis, oferecendo uma experiência imersiva e inovadora.",
-      imageCard: "/images/timeline/",
-      imageModal: "/images/timeline/",
-      sourceCard: '<a href="link da imagem">Autor, descrição </a>,',
-      sourceModal: '<a href="link da imagem">Autor, descrição </a>,',
+      imageCard: "/images/timeline/2011-Nintendo-3ds",
+      imageModal: "/images/timeline/2011-Nintendo-3ds",
+      sourceCard: '<a href="https://www.techtudo.com.br/noticias/2011/07/nintendo-3ds-chega-ao-brasil-saiba-tudo-sobre-o-console.ghtml">Diego Borges, Nitendo 3ds </a>,',
+      sourceModal: '<a href="https://www.techtudo.com.br/noticias/2011/07/nintendo-3ds-chega-ao-brasil-saiba-tudo-sobre-o-console.ghtml">Diego Borges, Nitendo 3ds </a>,',
       category: ["hardware"],
       longDescription: `Em fevereiro de 2011, a Nintendo lançou o Nintendo 3DS no Japão, trazendo uma revolução para os consoles portáteis ao introduzir a tecnologia de 3D sem óculos. Com um design compacto e tela de 3,53 polegadas, o 3DS permitia que os jogadores experimentassem gráficos em 3D de forma imersiva, sem a necessidade de acessórios adicionais, algo inédito para um dispositivo portátil na época.
   O console possuía recursos avançados, como uma tela superior com capacidade 3D ajustável e uma tela inferior sensível ao toque, além de câmeras 3D que permitiam aos jogadores capturar fotos em três dimensões. O StreetPass e o SpotPass também foram introduzidos, oferecendo funcionalidades de troca de dados e comunicação com outros dispositivos enquanto o 3DS estava em modo de espera, algo que trouxe uma nova dinâmica para jogos sociais e interações entre usuários.
@@ -878,24 +878,10 @@ O Android se tornou o sistema operacional móvel mais popular do mundo. Em agost
       year: "2011",
       title: "Sony PlayStation Vita",
       shortDescription: "Lançado em dezembro de 2011 no Japão, o PS Vita trouxe hardware potente e inovação nos controles, buscando aproximar a experiência portátil da de consoles domésticos.",
-      imageCard: "/images/timeline/",
-      imageModal: "/images/timeline/",
-      sourceCard: '<a href="link da imagem">Autor, descrição </a>,',
-      sourceModal: '<a href="link da imagem">Autor, descrição </a>,',
-      category: ["hardware"],
-      longDescription: `Em dezembro de 2011, a Sony lançou o PlayStation Vita no Japão, marcando o início da sua segunda tentativa de dominar o mercado de consoles portáteis, após o sucesso do PSP. O PS Vita trouxe várias inovações, destacando-se pelo hardware potente e recursos multimídia avançados para a época, com o objetivo de proporcionar uma experiência de jogo quase equivalente à de consoles domésticos.
-  O PS Vita foi equipado com uma tela sensível ao toque de 5 polegadas OLED (em sua versão inicial), oferecendo cores vibrantes e alta resolução. Além disso, o console possuía um touchpad traseiro, que ampliava as opções de controle, e dois joysticks analógicos, uma característica que o diferenciava de outros portáteis da época e facilitava a jogabilidade em títulos mais complexos.
-  O PS Vita também foi um dos primeiros dispositivos a contar com conectividade 3G (em algumas versões), além de Wi-Fi, permitindo aos jogadores acessar a internet, jogar online e baixar conteúdos diretamente do PlayStation Store. A integração com o ecossistema PlayStation foi um dos pontos fortes, permitindo que os usuários jogassem títulos exclusivos e aproveitassem o Cross-Play com o PlayStation 3.
-  Apesar de suas inovações, o PS Vita enfrentou dificuldades comerciais, em grande parte devido à concorrência dos smartphones e da falta de uma linha de jogos mais atrativa. Além disso, o preço elevado e a ausência de suporte de grandes desenvolvedores também contribuíram para o seu desempenho abaixo das expectativas de vendas. Mesmo assim, o PS Vita permanece um marco na evolução dos consoles portáteis, sendo lembrado por sua poderosa performance gráfica e por algumas experiências de jogo imersivas.`,
-  },
-  {
-      year: "2011",
-      title: "Sony PlayStation Vita",
-      shortDescription: "Lançado em dezembro de 2011 no Japão, o PS Vita trouxe hardware potente e inovação nos controles, buscando aproximar a experiência portátil da de consoles domésticos.",
-      imageCard: "/images/timeline/",
-      imageModal: "/images/timeline/",
-      sourceCard: '<a href="link da imagem">Autor, descrição </a>,',
-      sourceModal: '<a href="link da imagem">Autor, descrição </a>,',
+      imageCard: "/images/timeline/2011-sony-ps-vita",
+      imageModal: "/images/timeline/2011-sony-ps-vita",
+      sourceCard: '<a href="https://tecnoblog.net/noticias/sony-encerra-playstation-vita/">André Fogaça, Console portátil da Sony </a>,',
+      sourceModal: '<a href="https://tecnoblog.net/noticias/sony-encerra-playstation-vita/">André Fogaça, Console portátil da Sony </a>,',
       category: ["hardware"],
       longDescription: `Em dezembro de 2011, a Sony lançou o PlayStation Vita no Japão, marcando o início da sua segunda tentativa de dominar o mercado de consoles portáteis, após o sucesso do PSP. O PS Vita trouxe várias inovações, destacando-se pelo hardware potente e recursos multimídia avançados para a época, com o objetivo de proporcionar uma experiência de jogo quase equivalente à de consoles domésticos.
   O PS Vita foi equipado com uma tela sensível ao toque de 5 polegadas OLED (em sua versão inicial), oferecendo cores vibrantes e alta resolução. Além disso, o console possuía um touchpad traseiro, que ampliava as opções de controle, e dois joysticks analógicos, uma característica que o diferenciava de outros portáteis da época e facilitava a jogabilidade em títulos mais complexos.
