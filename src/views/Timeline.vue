@@ -706,7 +706,9 @@ watch(searchQuery, () => {
       <p class="timeline-disclaimer mx-auto max-w-3xl text-center text-sm text-gray-200 opacity-90 leading-relaxed">
         <button @click="openFontesModal"
           class="text-[#fcd34d] hover:text-[#fde68a] cursor-pointer transition-colors underline">
-          Fontes utilizadas
+          Todo o conteúdo apresentado nesse site tem fins educacionais e de arquivamento.<br>
+          As imagens utilizadas são meramente ilustrativas e foram obtidas da internet.<br>
+          Os textos exibidos foram adaptados das Fontes utilizadas.
         </button>
       </p>
 
@@ -918,6 +920,8 @@ watch(searchQuery, () => {
                 <p><a href="https://ethw.org/" target="_blank" rel="noopener noreferrer"
                     class="text-blue-400 hover:text-blue-300 transition-colors">Engineering and Technology History Wiki
                     (ETHW)</a></p>
+                <p><a href="https://obsoletemedia.org/" target="_blank" rel="noopener noreferrer"
+                    class="text-blue-400 hover:text-blue-300 transition-colors">Museum of Obsolete Media</a></p>
                 <p><a href="https://museum.syssrc.com/" target="_blank" rel="noopener noreferrer"
                     class="text-blue-400 hover:text-blue-300 transition-colors">Computer Museum @ System Source</a></p>
               </div>
