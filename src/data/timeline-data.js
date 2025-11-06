@@ -117,7 +117,7 @@ O primeiro produto da HP, não foi um computador, mas na verdade o oscilador de 
     imageCard: "/images/timeline/1950-elliott-152-dea81534.webp",
     imageModal: "/images/timeline/1950-elliott-152-dea81534.webp",
     source:
-      '<a href="https://www.ourcomputerheritage.org/Maincomp/Eli/E1_Elliott_152.htm">© Computer Conservation Society.</a>',
+      '<a href="https://www.ourcomputerheritage.org/Maincomp/Eli/E1_Elliott_152.htm">© Computer Conservation Society, lliott 152 computer, first working at Borehamwood in the autumn of 1950 as part of the MRS5 naval gunnery-control project. The six camera units in the foreground were used during the performance-analysis of the target-tracking radar which was controlled in real time by the computer.</a>,© 2012-2021 Computer Conservation Society, via <a href="https://www.ourcomputerheritage.org"> https://www.ourcomputerheritage.org</a>',
     category: "Computadores",
     longDescription: `O computador Elliott 152 foi um dos primeiros computadores a utilizar transistores em vez de válvulas. Ele foi projetado para ser um computador de uso geral e foi amplamente utilizado em universidades e instituições de pesquisa.`,
   },
@@ -569,14 +569,19 @@ Em 1990, a Acorn, a Apple e a VLSI Technology uniram forças para criar uma nova
   },
   {
     year: "1981",
-    title: "IBM PC",
-    shortDescription: "O primeiro IBM PC, modelo 5150, é lançado.",
+    title: "IBM PC e barramento ISA",
+    shortDescription: "O primeiro IBM PC, modelo 5150, é lançado com barramento de 8 bits posteriormente nomeado como ISA (Industry Standard Architecture).",
     imageCard: "/images/timeline/1981-ibm-pc-ec0ad7e9.webp",
-    imageModal: "/images/timeline/1981-ibm-pc-ec0ad7e9.webp",
-    source:
+    imageModal: "/images/timeline/1981-IBM_PC_Motherboard.jpg",
+    sourceCard:
       '<a href="https://commons.wikimedia.org/wiki/File:IBM_PC-IMG_7271_(transparent).png">Rama &amp; Musée Bolo</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en">CC BY-SA 2.0 FR</a>, via Wikimedia Commons',
-    category: "Computadores",
-    longDescription: `O IBM Personal Computer (modelo 5150) foi o computador que definiu o padrão da indústria e popularizou a arquitetura x86. Seu sucesso levou à criação de um vasto ecossistema de hardware e software compatíveis, conhecidos como 'clones de PC', que dominaram o mercado por décadas.`,
+    sourceModal: '<a href="https://pt.wikipedia.org/wiki/Ficheiro:IBM_PC_Motherboard_(1981).jpg">German, Placa-mãe de um PC IBM de 1981, Possuía um microprocessador Intel 8088 de 4,77 MHz, cinco portas de conexão para placas de expansão (barramento ISA, 8 bits) e de 16 KB a 64 KB de RAM na placa-mãe. Na imagem, estão instalados 32 circuitos integrados (4x8 CIs abaixo à direita) do tipo AMD Am9016, cada um com 16.384 bits (2 kB), resultando em uma RAM com capacidade máxima de instalação de 64 kB. </a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons',
+      category: ["Computadores","Hardware"],
+    longDescription: `O IBM Personal Computer (modelo 5150) foi o computador que definiu o padrão da indústria e popularizou a arquitetura x86. Seu sucesso levou à criação de um vasto ecossistema de hardware e software compatíveis, conhecidos como 'clones de PC', que dominaram o mercado por décadas.
+   
+O IBM PC tinha duas variantes: a variante tipo A, com placa-mãe de 16/64k, e a variante tipo B, com placa-mãe de 64/256k. A variante tipo B era identificada por um "B" dentro de um círculo pintado no metal esmaltado preto na parte traseira.
+Possuía um microprocessador Intel 8088 de 4,77 MHz, cinco portas de conexão para placas de expansão (barramento ISA, 8 bits) e de 16 KB a 64 KB de RAM na placa-mãe. Com 32 circuitos integrados (4x8 CIs) do tipo AMD Am9016, cada um com 16.384 bits (2 kB), resultando em uma RAM com capacidade máxima de instalação de 64 kB
+    `,
   },
   {
     year: "1981",
@@ -700,6 +705,21 @@ Com sede em Round Rock, Texas, a Dell se tornou uma das maiores fabricantes de c
                       Em uma postagem na lista de e-mails (mailing list) Linux-Kernel em 17 de setembro de 2021, Torvalds reconheceu esta data como a "verdadeira data do 30º aniversário do código em si".`,
   },
   {
+    year: "1992",
+    title: "Padrão de barramento para computadores Peripheral Component Interconnect – PCI era lançada",
+    shortDescription: "Em 22 de junho de 1992, a primeira versão do padrão de barramento para computadores Peripheral Component Interconnect – PCI era lançada.",
+    imageCard: "/images/timeline/1992-PCI_logo.svg",
+    imageModal: "/images/timeline/1992-PCI_Keying.svg",
+    sourceCard: '<a href="https://en.wikipedia.org/wiki/File:PCI_Local_Bus_logo.svg">Logo for PCI Local Bus. Extracted from the PDF of Canopus DV Rex datasheet</a>, CC BY-SA 4.0, via Wikimedia Commons',
+    sourceModal: '<a href="https://en.wikipedia.org/wiki/File:PCI_Keying.svg">This diagram shows the voltage key positions on 32-bit and 64-bit PCI cards and slots.</a>, CC BY-SA 4.0, via Wikimedia Commons',
+    category: ["Hardware"],
+    longDescription:` O PCI foi um novo padrão de barramento, que chegava para substituir os existentes ISA, EISA, Microcanal e VESA.
+O trabalho no PCI começou no Intel Architecture Labs (IAL, also Architecture Development Lab) por volta de  1990. Uma equipe composta principalmente por engenheiros do IAL definiu a arquitetura e desenvolveu um chipset e uma plataforma de prova de conceito (Saturn), em parceria com equipes de sistemas de PCs desktop e produtos de lógica central da empresa.
+Em 22 de junho de 1992, a primeira versão do padrão de barramento para computadores Peripheral Component Interconnect – PCI era lançada, desenvolvido pela Intel e o Grupo de Interesse Especial PCI (PCI-SIG) foi formado naquele mesmo ano para gerenciar a propriedade e o desenvolvimento da especificação.
+Além de ser capaz de transferir dados a velocidades de 33 ou 66MHz, com opções de modos de operação de 32 ou 64 bits, o PCI trouxe também a solução para uma questão que tirou o sono de muitos usuários nos anos anteriores: o novo recurso de configuração automática dos parâmetros de funcionamento das placas (plug&play), aposentando os dramáticos “jumpers” e chaves de configuração.
+`,
+  },
+  {
     year: "1993",
     title: "Intel Pentium",
     shortDescription: "O processador Intel Pentium é lançado.",
@@ -728,6 +748,23 @@ Com sede em Round Rock, Texas, a Dell se tornou uma das maiores fabricantes de c
                       A Nvidia começou produzindo unidades de processamento gráfico (GPUs) voltadas para a indústria de jogos, mas depois diversificou para mercados que incluem placas de vídeo, telefones celulares, multimídia e computadores científicos de ponta.
 
                       Em agosto de 2023, a Nvidia valia mais de 1 trilhão de dólares e era classificada como a sexta maior empresa do mundo. Essa ascensão meteórica no valor da empresa se deve, pelo menos em parte, ao seu domínio no mercado de chips usados para alimentar serviços de IA como o ChatGPT, uma área que se espera ser de grande crescimento no futuro.`,
+  },
+  {
+    year: "1994",
+    title: "Padrão Plug and Play",
+    shortDescription:
+      '"Plug and Play BIOS Specification Version 1.0A" ( Media:PnP-BIOS-Specification-V1.0A.pdf ) foi publicado em 5 de maio de 1994',
+    imageCard: "/images/timeline/1994-PNP Sequence.PNG",
+    imageModal: "/images/timeline/1994-PNP Sequence.PNG",
+    source:
+      '<a href="https://ethw.org/w/images/7/7f/PNP-ISA-v1.0a.pdf">Intel Corporation and Microsoft Corporation,Plug and Play ISA Specification (c) Copyright 1993, 1994; ISA Configuration Flow for Plug and Play & Existing Non-Plug and Play BIOS.</a>',
+    category: ["Hardware","Software"],
+    longDescription: `Um esforço chamado "Plug and Play" (abreviado como PnP) começou na década de 1990 como parte de uma iniciativa da indústria para permitir que um PC configurasse automaticamente seu hardware e software, de forma a acomodar a adição de um novo dispositivo com pouco ou nenhum esforço por parte do usuário. O PnP foi projetado para ser ativado automaticamente quando um novo hardware fosse instalado no PC, mas também para permitir a troca a quente de um dispositivo, sem a necessidade de desligar o PC primeiro. Dessa forma, o computador reconheceria automaticamente qualquer novo dispositivo, carregaria novos drivers de software, se necessário, e permitiria que o dispositivo recém-conectado fosse utilizado.
+
+O PnP é um conjunto de métodos para determinar e controlar o uso de recursos do sistema, exigindo, portanto, que a placa-mãe, o BIOS e os periféricos de um PC fossem compatíveis com o padrão PnP. Diversas empresas de hardware e software desenvolveram o padrão PnP para o controle de todos os recursos do sistema, permitindo que alterações fossem realizadas dinamicamente na inicialização do computador após uma reconfiguração, bem como ao conectar ou desconectar um dispositivo com o computador em funcionamento.
+
+Em 1993, o ISA PnP definiu métodos de hardware para detectar e configurar placas de expansão do barramento ISA, mas normalmente não previa a reconfiguração dessas placas durante a operação normal. Um documento intitulado "Plug and Play BIOS Specification Version 1.0A" ( Media:PnP-BIOS-Specification-V1.0A.pdf ) foi publicado em 5 de maio de 1994 pela Compaq Computer Corp., Phoenix Technologies, Ltd. e Intel Corp. para definir os requisitos para o aspecto de BIOS do sistema do PnP. Um documento intitulado "Plug and Play ISA Specification Version 1.0a" ( Media:PNP-ISA-v1.0a.pdf ) foi publicado no mesmo dia pela Intel Corp. e Microsoft Corp. para definir os requisitos de hardware da placa-mãe e da placa de expansão em suporte ao PnP. Logo depois, a Intel começou a comercializar placas-mãe equipadas com BIOS PnP e slots para placas de expansão do barramento ISA capazes de suportar placas de expansão compatíveis com PnP.
+    `,
   },
   {
     year: "1995",
@@ -798,6 +835,35 @@ Com sede em Round Rock, Texas, a Dell se tornou uma das maiores fabricantes de c
     longDescription: `Lançada em 11 de outubro de 1999, a GeForce 256 foi o primeiro produto lançado pela Nvidia sob a marca GeForce.
 
 Foi descrito pela Nvidia como a primeira GPU (Unidade de Processamento Gráfico) do mundo. A definição da Nvidia na época era "um processador de chip único com mecanismos integrados de transformação, iluminação, configuração/recorte de triângulos e renderização, capaz de processar no mínimo 10 milhões de polígonos por segundo".`,
+  },
+  {
+    year: "2002",
+    title: "Lançada Amazon.com Web Services",
+    shortDescription:
+      "Em julho de 2002, a Amazon.com Web Services, gerenciada por Colin Bryar, lançou seus primeiros serviços web.",
+    imageCard:
+      "/images/timeline/2002-Amazon.com_web_services.jpg",
+    imageModal:
+      "/images/timeline/2002-Amazon.com_web_services.jpg",
+    source:
+      '<a href="https://en.wikipedia.org/wiki/File:Amazon.com_web_services_2002.jpg">© Amazon, Inc.,  The first Amazon.com Web Services logo, from early 2000s</a>, copyright owner Amazon, Inc.,via Wikimedia Commons',
+    category: "Redes",
+    longDescription: `Em julho de 2002, a Amazon.com Web Services, gerenciada por Colin Bryar, lançou seus primeiros serviços web , abrindo a plataforma Amazon.com para todos os desenvolvedores. Mais de cem aplicativos foram construídos sobre ela até 2004.
+    A Amazon.com em plena fase de adoção do Linux: migrando os servidores e o data warehouse de seu banco de dados Oracle para sistemas Linux. O data warehouse da Amazon.com possui cerca de 14 TB e precisa de processamento rápido de vários gigabytes de dados por segundo. Utilizando o Oracle Real Application Clusters em servidores Hewlett-Packard ProLiant e sistemas de armazenamento HP Modular Smart Array.
+    Em julho de 2002, a Amazon.com lançou a primeira versão de um kit de desenvolvimento de software que permitia aos desenvolvedores interagir com os sistemas da Amazon.com expostos por meio de serviços web.`,
+  },
+  {
+    year: "2003",
+    title: "PCI-SIG publica a especificação  PCIe 1.0.",
+    shortDescription: "A especificação (Peripheral Component Interconnect Express) PCIe 1.0 foi publicada pelo Grupo de Interesse Especial PCI (PCI-SIG) em 2003. ",
+    imageCard: "/images/timeline/2003-PCI_Express.svg",
+    imageModal: "/images/timeline/2003-Powering_of_PCIe_Slot.png",
+    sourceCard: '<a href="https://pt.wikipedia.org/wiki/Ficheiro:PCI_Express.svg">sarang, Logo des PCI-Express-Bus</a>, domínio público, via Wikimedia Commons',
+    sourceModal: '<a href="https://pt.wikipedia.org/wiki/Ficheiro:Powering_of_PCIe_Slot.png">Lam Tung Lee, PCIe cards pull power from the motherboard through the power supply pins of the PCIe slot. The main 12V power supply for the PCIe slot is pins B2, B3 (side B) and pins A2, A3 (side A). Power standby 3.3V is pin B10 and A10. PCIe card x1 supplies up to 25W and x16 is 75W combined.</a>,<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via Wikimedia Commons',
+    category: ["Hardware"],
+    longDescription: `A especificação (Peripheral Component Interconnect Express) PCIe 1.0 foi publicada pelo Grupo de Interesse Especial PCI (PCI-SIG) em 2003, projetada para substituir os antigos padrões de barramento PCI, PCI-X e AGP. 
+    O PCIe apresenta diversas melhorias em relação aos padrões de barramento mencionados, incluindo maior taxa de transferência máxima do barramento do sistema, menor número de pinos de E/S e tamanho físico reduzido, melhor escalonamento de desempenho para dispositivos de barramento, um mecanismo mais detalhado de detecção e relatório de erros e funcionalidade nativa de conexão hot-plug (adicionar ou remover dispositivos de hardware em um computador ou sistema em funcionamento, sem a necessidade de desligá-lo).
+`,
   },
   {
     year: "2007",
