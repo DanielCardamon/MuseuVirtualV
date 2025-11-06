@@ -8,6 +8,7 @@ const isMobileComponentesExpanded = ref(false);
 const route = useRoute();
 const componentesMenuRef = ref(null);
 const componentesButtonRef = ref(null);
+const dropdownMenuRef = ref(null);
 const isScrolled = ref(false);
 const dropdownPosition = ref({ top: 0, right: 0 });
 
@@ -15,7 +16,9 @@ const handleClickOutside = (event) => {
   if (
     isComponentesDropdownOpen.value &&
     componentesMenuRef.value &&
-    !componentesMenuRef.value.contains(event.target)
+    !componentesMenuRef.value.contains(event.target) &&
+    dropdownMenuRef.value &&
+    !dropdownMenuRef.value.contains(event.target)
   ) {
     isComponentesDropdownOpen.value = false;
   }
@@ -260,7 +263,7 @@ const toggleMobileComponentes = () => {
 
   <teleport to="body">
     <transition name="dropdown-fade">
-      <div v-if="isComponentesDropdownOpen" id="componentesDropdown"
+      <div v-if="isComponentesDropdownOpen" ref="dropdownMenuRef" id="componentesDropdown"
         class="fixed bg-black/40 backdrop-blur-xl border border-white/20 rounded-xl w-56 shadow-2xl overflow-hidden z-[60]"
         :style="{
           top: `${dropdownPosition.top}px`,
