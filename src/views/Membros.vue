@@ -15,7 +15,7 @@ const members = [
   {
     name: "Guilherme F. Santos",
     role: "Cargo",
-    image: "https://placehold.co/400x400/e2e8f0/2d3748?text=Foto",
+    image: "https://placehold.co/400x400/e2e8f0/2d3748?text=G.S.",
     accent: "from-blue-400/40 via-transparent to-indigo-500/10",
     socials: {
       github: "",
@@ -57,7 +57,7 @@ const members = [
 const supervisor = {
   name: "Luciano Francisco",
   role: "Supervisor de Projeto",
-  image: "https://placehold.co/400x400/e2e8f0/2d3748?text=Foto",
+  image: "/images/luciano_profile.png",
   socials: {
     linkedin: "",
     lattes: "",
