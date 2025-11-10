@@ -1,5 +1,22 @@
-# Vue 3 + Vite
+# Museu Virtual Fatec ZL
+## Instruções de Uso
+- Instale o [Node.js](https://nodejs.org/pt) na máquina
+- Clone o repositório, e instale as dependências:
+```bash
+git clone https://github.com/Matheus-Marti1/museu-virtual-fateczl.git
+npm install
+```
+- Para rodar o projeto, utilize o comando `npm run dev`
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+- para imagens em páginas usando script `useLazyImage.js`, após colocar o arquivo de imagem na pasta /public/images/(timeline; acervo ou componentes) usar comando (não necessário para imagens '.svg')
+```
+npm run generate:images
+```
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Versões ANTERIORES:
+- Link para o site (feito usando 'tailwind css') do Museu Virtual no Netlify: https://museu-virtual-fateczl.netlify.app/
+- Link para o repositório (feito usando 'tailwind css'): https://github.com/Matheus-Marti1/museu-virtual
+- Link para o repositório Fork: https://github.com/DanielCardamon/museu-virtual
+
+### Link dos Protótipo Figma:
+- https://www.figma.com/design/68Qcsu0HaSZGyNALgmneaP/Untitled?node-id=0-1&p=f&t=tw2eGtPk9pAn2LL9-0
