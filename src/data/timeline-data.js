@@ -672,6 +672,31 @@ Com sede em Round Rock, Texas, a Dell se tornou uma das maiores fabricantes de c
   },
   {
     year: "1987",
+    title: "A IBM apresenta a série de computadores PS/2 com a arquitetura Micro Channel (MCA)",
+    shortDescription: "Em 2 de abril de 1987, a IBM anunciou o PS/2 (Personal System/2), uma nova série de computadores pessoais com a arquitetura Micro Channel (MCA).",
+    imageCard: "/images/timeline/1987-IBM_PS-2_wordmark.svg",
+    imageModal: "/images/timeline/1987-MCASlot16.JPG",
+    sourceCard:
+      '<a href="https://ca.wikipedia.org/wiki/Fitxer:IBM_PS-2_wordmark.svg">International Business Machines, Vector IBM PS/2 wordmark</a>, Public domain, via Wikimedia Commons',
+    sourceModal:
+      '<a href="https://en.wikipedia.org/wiki/File:MCASlot16.JPG">K. Reichert, Dois slots MCA de 16 bits (um na parte superior e outro no meio). Na parte inferior, há um slot MCA para uma placa IBM 8514 .</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons',
+    category: ["Computadores", "Hardware"],
+    longDescription: `Em 2 de abril de 1987, a IBM anunciou o PS/2 (Personal System/2), uma nova série de computadores pessoais. O PS/2 foi o sucessor dos computadores PC, PC/XT e PC/AT da IBM .
+
+A maioria dos modelos PS/2 utilizava a arquitetura Micro Channel (MCA), um formato de barramento incompatível com o barramento aberto Industry Standard Architecture (ISA) da IBM , que havia sido adotado por muitos fabricantes.
+
+A IBM lançou, simultaneamente, um novo sistema operacional, o OS/2, permitindo pela primeira vez o uso de um mouse em computadores IBM .
+
+No lançamento, a gama PS/2 era composta por quatro modelos:
+
+Modelo 30. Baseado em um processador Intel 8086, o Modelo 30 não possuía recursos presentes em outros modelos PS/2, como o MCA. Ele também oferecia gráficos MCGA em vez de VGA.
+Modelo 50. Baseado em uma CPU Intel 80286, com MCA de 16 bits, VGA e um disco rígido de 20 MB.
+Modelo 60. Baseado em uma CPU Intel 80286, com MCA de 16 bits, VGA e um disco rígido de 44 MB ou 70 MB.
+Modelo 80. Baseado em uma CPU Intel 80386, com MCA de 32 bits, VGA e um disco rígido de 44 MB a 320 MB.
+Em setembro de 1988, 18 meses após o lançamento da nova linha de produtos, a IBM anunciou a venda de 3 milhões de máquinas PS/2.`,
+  },
+    {
+    year: "1987",
     title: "Windows 2.0",
     shortDescription: "A segunda versão do sistema operacional Windows.",
     imageCard: "/images/timeline/1983-microsoft-anuncia-o-windows-3199f200.svg",
