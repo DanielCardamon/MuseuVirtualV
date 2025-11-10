@@ -1,4 +1,5 @@
 # Museu Virtual Fatec ZL
+- Projeto Museu Virtual do Hardware, com fins educacionais e de arquivamento, para prover um contexto histórico e demonstrar a evolução dos computadores aos cursos de tecnologia.
 ## Instruções de Uso
 - Instale o [Node.js](https://nodejs.org/pt) na máquina
 - Clone o repositório, e instale as dependências:
